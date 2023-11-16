@@ -1,0 +1,51 @@
+[0.105s] Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/articubot_one
+[0.606s] -- The C compiler identification is GNU 11.3.0
+[0.961s] -- The CXX compiler identification is GNU 11.3.0
+[1.000s] -- Detecting C compiler ABI info
+[1.507s] -- Detecting C compiler ABI info - done
+[1.540s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.542s] -- Detecting C compile features
+[1.543s] -- Detecting C compile features - done
+[1.558s] -- Detecting CXX compiler ABI info
+[1.957s] -- Detecting CXX compiler ABI info - done
+[1.992s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.993s] -- Detecting CXX compile features
+[1.995s] -- Detecting CXX compile features - done
+[2.019s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.094s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.815s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.314s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.325s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.330s] -- Added test 'lint_cmake' to check CMake code style
+[4.334s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.342s] -- Added test 'xmllint' to check XML markup files
+[4.357s] -- Configuring done
+[4.387s] -- Generating done
+[4.391s] -- Build files have been written to: /home/yehia/devtest_ws/build/articubot_one
+[4.406s] Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/articubot_one
+[4.422s] Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/articubot_one -- -j2 -l2
+[4.664s] Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/articubot_one -- -j2 -l2
+[4.947s] Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/articubot_one
+[5.007s] -- Install configuration: ""
+[5.010s] -- Execute custom install script
+[5.013s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[5.076s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[5.133s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[5.171s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[5.209s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[5.247s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[5.271s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[5.296s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[5.334s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[5.367s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[5.428s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[5.502s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[5.558s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[5.627s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[5.691s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.dsv
+[5.763s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[5.824s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[5.882s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[5.939s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.xml
+[6.013s] Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/articubot_one

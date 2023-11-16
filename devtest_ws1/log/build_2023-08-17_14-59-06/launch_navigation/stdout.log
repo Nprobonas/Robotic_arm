@@ -1,0 +1,32 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/navigation.launch.py
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_launch_all.launch.py
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_nav.launch.py
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_slam.launch.py
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/map1_save.pgm
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/map1_save.yaml
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/map1_serialize.data
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/map1_serialize.posegraph
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/rviz/nav.rviz
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/rviz/slam.rviz
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/box_filter.yaml
+-- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/mapper_params_offline.yaml
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/range_filter.yaml
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/sim_navigation.yaml
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/sim_slam.yaml
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies/launch_navigation
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path/launch_navigation
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/path.sh
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/path.dsv
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.bash
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.sh
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.zsh
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.dsv
+-- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.dsv
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages/launch_navigation
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig.cmake
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig-version.cmake
+-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.xml

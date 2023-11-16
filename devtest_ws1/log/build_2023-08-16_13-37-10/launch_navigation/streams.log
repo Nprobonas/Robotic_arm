@@ -1,0 +1,46 @@
+[0.038s] Invoking command in '/home/yehia/devtest_ws/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/launch_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/launch_navigation
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.369s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.375s] -- Detecting C compile features
+[0.377s] -- Detecting C compile features - done
+[0.382s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.529s] -- Detecting CXX compile features - done
+[0.541s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.746s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.843s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.905s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.057s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.060s] -- Added test 'lint_cmake' to check CMake code style
+[1.064s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.066s] -- Added test 'xmllint' to check XML markup files
+[1.068s] -- Configuring done
+[1.069s] -- Generating done
+[1.071s] -- Build files have been written to: /home/yehia/devtest_ws/build/launch_navigation
+[1.077s] Invoked command in '/home/yehia/devtest_ws/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/launch_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/launch_navigation
+[1.077s] Invoking command in '/home/yehia/devtest_ws/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/launch_navigation -- -j4 -l4
+[1.123s] Invoked command in '/home/yehia/devtest_ws/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/launch_navigation -- -j4 -l4
+[1.155s] Invoking command in '/home/yehia/devtest_ws/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/launch_navigation
+[1.167s] -- Install configuration: ""
+[1.170s] -- Execute custom install script
+[1.170s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies/launch_navigation
+[1.181s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path/launch_navigation
+[1.190s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.sh
+[1.200s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.dsv
+[1.210s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/path.sh
+[1.221s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/path.dsv
+[1.229s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.bash
+[1.237s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.sh
+[1.247s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.zsh
+[1.257s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.dsv
+[1.264s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.dsv
+[1.272s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages/launch_navigation
+[1.279s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig.cmake
+[1.287s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig-version.cmake
+[1.293s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.xml
+[1.303s] Invoked command in '/home/yehia/devtest_ws/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/launch_navigation

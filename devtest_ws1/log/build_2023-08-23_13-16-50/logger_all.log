@@ -1,0 +1,339 @@
+[0.502s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.502s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3905ee91e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3905e0ee60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3905e0ee60>>)
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.552s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yehia/devtest_ws'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[0.582s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_navigation) by extension 'ros'
+[0.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_navigation' with type 'ros.ament_cmake' and name 'launch_navigation'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_launch) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_robot_launch' with type 'ros.ament_cmake' and name 'multi_robot_launch'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.634s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/yehia/devtest_ws/install
+[0.636s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/yehia/cloudy_ws/install
+[0.640s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.752s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'rf2o_laser_odometry' is in: /home/yehia/devtest_ws/install/rf2o_laser_odometry, /home/yehia/cloudy_ws/install/rf2o_laser_odometry
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding rf2o_laser_odometry
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.755s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yehia/devtest_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yehia/devtest_ws/install/articubot_one', 'merge_install': False, 'path': '/home/yehia/devtest_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_target' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.757s] DEBUG:colcon.colcon_core.verb:Building package 'launch_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yehia/devtest_ws/build/launch_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yehia/devtest_ws/install/launch_navigation', 'merge_install': False, 'path': '/home/yehia/devtest_ws/src/launch_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'cmake_args' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'cmake_target' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.759s] DEBUG:colcon.colcon_core.verb:Building package 'multi_robot_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yehia/devtest_ws/build/multi_robot_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yehia/devtest_ws/install/multi_robot_launch', 'merge_install': False, 'path': '/home/yehia/devtest_ws/src/multi_robot_launch', 'symlink_install': True, 'test_result_base': None}
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.761s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yehia/devtest_ws/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yehia/devtest_ws/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/yehia/devtest_ws/src/rf2o_laser_odometry', 'symlink_install': True, 'test_result_base': None}
+[0.762s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.770s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yehia/devtest_ws/src/articubot_one' with build type 'ament_cmake'
+[0.770s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yehia/devtest_ws/src/articubot_one'
+[0.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.797s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yehia/devtest_ws/src/launch_navigation' with build type 'ament_cmake'
+[0.798s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yehia/devtest_ws/src/launch_navigation'
+[0.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.815s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yehia/devtest_ws/src/multi_robot_launch' with build type 'ament_cmake'
+[0.816s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yehia/devtest_ws/src/multi_robot_launch'
+[0.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.824s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yehia/devtest_ws/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[0.824s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yehia/devtest_ws/src/rf2o_laser_odometry'
+[0.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/articubot_one -- -j4 -l4
+[0.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/launch_navigation -- -j4 -l4
+[0.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/multi_robot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/multi_robot_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/multi_robot_launch
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/rf2o_laser_odometry -- -j4 -l4
+[0.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/articubot_one -- -j4 -l4
+[0.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/launch_navigation -- -j4 -l4
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/articubot_one
+[0.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/launch_navigation
+[0.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/articubot_one
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one' for CMake module files
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one' for CMake config files
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/bin'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/rf2o_laser_odometry -- -j4 -l4
+[0.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_navigation)
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation' for CMake module files
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/launch_navigation
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation' for CMake config files
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_navigation', 'cmake_prefix_path')
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.sh'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation/bin'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation/lib/pkgconfig/launch_navigation.pc'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation/lib/python3.10/site-packages'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation/bin'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.dsv'
+[0.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.sh'
+[0.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.bash'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.zsh'
+[1.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/launch_navigation/share/colcon-core/packages/launch_navigation)
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one' for CMake module files
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one' for CMake config files
+[1.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/bin'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/lib/python3.10/site-packages'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/bin'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.sh'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.zsh'
+[1.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/rf2o_laser_odometry
+[1.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_navigation)
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation' for CMake module files
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation' for CMake config files
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_navigation', 'cmake_prefix_path')
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.sh'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation/bin'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation/lib/pkgconfig/launch_navigation.pc'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation/lib/python3.10/site-packages'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/launch_navigation/bin'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.sh'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.bash'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.zsh'
+[1.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/launch_navigation/share/colcon-core/packages/launch_navigation)
+[1.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry' for CMake module files
+[1.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/rf2o_laser_odometry
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry' for CMake config files
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/lib'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/bin'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/bin'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[1.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[1.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry' for CMake module files
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry' for CMake config files
+[1.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/lib'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/bin'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/rf2o_laser_odometry/bin'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[1.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[1.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/multi_robot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/multi_robot_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/multi_robot_launch
+[1.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/multi_robot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/multi_robot_launch -- -j4 -l4
+[1.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/multi_robot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/multi_robot_launch -- -j4 -l4
+[1.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/multi_robot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/multi_robot_launch
+[2.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_launch)
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch' for CMake module files
+[2.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/multi_robot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/multi_robot_launch
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch' for CMake config files
+[2.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_launch', 'cmake_prefix_path')
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/hook/cmake_prefix_path.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/hook/cmake_prefix_path.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/hook/cmake_prefix_path.sh'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch/bin'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch/lib/pkgconfig/multi_robot_launch.pc'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch/lib/python3.10/site-packages'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch/bin'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.sh'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.bash'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.zsh'
+[2.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/multi_robot_launch/share/colcon-core/packages/multi_robot_launch)
+[2.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_launch)
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch' for CMake module files
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch' for CMake config files
+[2.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_launch', 'cmake_prefix_path')
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/hook/cmake_prefix_path.ps1'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/hook/cmake_prefix_path.dsv'
+[2.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/hook/cmake_prefix_path.sh'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch/bin'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch/lib/pkgconfig/multi_robot_launch.pc'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch/lib/python3.10/site-packages'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/multi_robot_launch/bin'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.ps1'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.dsv'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.sh'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.bash'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.zsh'
+[2.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/multi_robot_launch/share/colcon-core/packages/multi_robot_launch)
+[2.147s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.150s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.161s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.178s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.180s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yehia/devtest_ws/install/local_setup.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yehia/devtest_ws/install/_local_setup_util_ps1.py'
+[2.185s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yehia/devtest_ws/install/setup.ps1'
+[2.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yehia/devtest_ws/install/local_setup.sh'
+[2.189s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yehia/devtest_ws/install/_local_setup_util_sh.py'
+[2.190s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yehia/devtest_ws/install/setup.sh'
+[2.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yehia/devtest_ws/install/local_setup.bash'
+[2.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yehia/devtest_ws/install/setup.bash'
+[2.197s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yehia/devtest_ws/install/local_setup.zsh'
+[2.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yehia/devtest_ws/install/setup.zsh'

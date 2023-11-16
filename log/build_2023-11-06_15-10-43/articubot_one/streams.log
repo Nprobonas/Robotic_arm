@@ -1,0 +1,95 @@
+[0.146s] Invoking command in '/home/madjid/devtest_ws_cbm/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/madjid/devtest_ws_cbm/devtest_ws1/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madjid/devtest_ws_cbm/install/articubot_one
+[0.666s] -- The C compiler identification is GNU 11.4.0
+[1.117s] -- The CXX compiler identification is GNU 11.4.0
+[1.153s] -- Detecting C compiler ABI info
+[1.253s] -- Detecting C compiler ABI info - done
+[1.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.260s] -- Detecting C compile features
+[1.261s] -- Detecting C compile features - done
+[1.263s] -- Detecting CXX compiler ABI info
+[1.365s] -- Detecting CXX compiler ABI info - done
+[1.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.373s] -- Detecting CXX compile features
+[1.373s] -- Detecting CXX compile features - done
+[1.395s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.545s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.601s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.624s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.702s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.708s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.709s] -- Added test 'lint_cmake' to check CMake code style
+[1.710s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.714s] -- Added test 'xmllint' to check XML markup files
+[1.715s] -- Configuring done
+[1.717s] -- Generating done
+[1.718s] -- Build files have been written to: /home/madjid/devtest_ws_cbm/build/articubot_one
+[1.723s] Invoked command in '/home/madjid/devtest_ws_cbm/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/madjid/devtest_ws_cbm/devtest_ws1/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madjid/devtest_ws_cbm/install/articubot_one
+[1.723s] Invoking command in '/home/madjid/devtest_ws_cbm/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/articubot_one -- -j4 -l4
+[1.762s] Invoked command in '/home/madjid/devtest_ws_cbm/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/articubot_one -- -j4 -l4
+[1.788s] Invoking command in '/home/madjid/devtest_ws_cbm/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/articubot_one
+[1.795s] -- Install configuration: ""
+[1.796s] -- Execute custom install script
+[1.796s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.805s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/config/mapper_params_offline.yaml
+[1.814s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[1.823s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/config/mapper_params_online_sync.yaml
+[1.831s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[1.840s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/cloudy_v2_properties.urdf.xacro
+[1.851s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/deph_camera.xacro
+[1.861s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.869s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.878s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/laser.xacro
+[1.886s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_0_0.dae
+[1.894s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_1_0.dae
+[1.903s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_1_1.dae
+[1.910s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_1_2.dae
+[1.918s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_2_0.dae
+[1.925s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_2_1.dae
+[1.933s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_2_2.dae
+[1.944s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_3_0.dae
+[1.953s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_3_1.dae
+[1.960s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_4_0.dae
+[1.969s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_4_1.dae
+[1.977s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_5_0.dae
+[1.988s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_5_1.dae
+[1.995s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/a0912_blue/A0912_6_0.dae
+[2.003s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/body_v2.stl
+[2.010s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/lidar.stl
+[2.020s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/realsense.stl
+[2.029s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/meshes/wheel_v2.stl
+[2.037s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/omni_drive.urdf.xacro
+[2.045s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[2.053s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[2.061s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/test.urdf
+[2.068s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/urdf/a0912.blue.urdf
+[2.078s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/xacro/a0912.urdf.xacro
+[2.085s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/xacro/macro.a0912.blue.xacro
+[2.092s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/xacro/macro.bumper_config.xacro
+[2.099s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/xacro/macro.gazebo_config_control.xacro
+[2.107s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/xacro/macro.internal_config.xacro
+[2.114s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/description/xacro/macro.transmission.xacro
+[2.122s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/launch/gazebo.launch.py
+[2.130s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[2.138s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/worlds/empty.world
+[2.147s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/worlds/model.config
+[2.161s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/worlds/model.sdf
+[2.168s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/worlds/test.world
+[2.176s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/worlds/world1.world
+[2.184s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/worlds/world1/model.config
+[2.193s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/worlds/world1/model.sdf
+[2.202s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[2.210s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[2.217s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[2.224s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[2.233s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/environment/path.sh
+[2.242s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/environment/path.dsv
+[2.251s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/local_setup.bash
+[2.259s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/local_setup.sh
+[2.266s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/local_setup.zsh
+[2.274s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/local_setup.dsv
+[2.281s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.dsv
+[2.289s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[2.296s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[2.304s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[2.311s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.xml
+[2.320s] Invoked command in '/home/madjid/devtest_ws_cbm/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/articubot_one

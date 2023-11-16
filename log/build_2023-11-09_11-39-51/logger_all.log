@@ -1,0 +1,1084 @@
+[2.724s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.725s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdb98890610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdb98891a80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdb98891a80>>)
+[2.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.892s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/madjid/devtest_ws_cbm'
+[2.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extension 'ignore'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extension 'ignore_ament_install'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extensions ['colcon_pkg']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extension 'colcon_pkg'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extensions ['colcon_meta']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extension 'colcon_meta'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extensions ['ros']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extension 'ros'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extensions ['cmake', 'python']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extension 'cmake'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extension 'python'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extensions ['python_setup_py']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws) by extension 'python_setup_py'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extension 'ignore_ament_install'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extensions ['colcon_pkg']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extension 'colcon_pkg'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extensions ['colcon_meta']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extension 'colcon_meta'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extensions ['ros']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extension 'ros'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extensions ['cmake', 'python']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extension 'cmake'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extension 'python'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extensions ['python_setup_py']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install) by extension 'python_setup_py'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extension 'ignore'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extension 'ignore_ament_install'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extensions ['colcon_pkg']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extension 'colcon_pkg'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extensions ['colcon_meta']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extension 'colcon_meta'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extensions ['ros']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extension 'ros'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extensions ['cmake', 'python']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extension 'cmake'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extension 'python'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extensions ['python_setup_py']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one) by extension 'python_setup_py'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extensions ['ignore', 'ignore_ament_install']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extension 'ignore'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extension 'ignore_ament_install'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extensions ['colcon_pkg']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extension 'colcon_pkg'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extensions ['colcon_meta']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extension 'colcon_meta'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extensions ['ros']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extension 'ros'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extensions ['cmake', 'python']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extension 'cmake'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extension 'python'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extensions ['python_setup_py']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share) by extension 'python_setup_py'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extensions ['ignore', 'ignore_ament_install']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extension 'ignore'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extension 'ignore_ament_install'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extensions ['colcon_pkg']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extension 'colcon_pkg'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extensions ['colcon_meta']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extension 'colcon_meta'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extensions ['ros']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extension 'ros'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extensions ['cmake', 'python']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extension 'cmake'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extension 'python'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extensions ['python_setup_py']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index) by extension 'python_setup_py'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extensions ['ignore', 'ignore_ament_install']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extension 'ignore'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extension 'ignore_ament_install'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extensions ['colcon_pkg']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extension 'colcon_pkg'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extensions ['colcon_meta']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extension 'colcon_meta'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extensions ['ros']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extension 'ros'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extensions ['cmake', 'python']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extension 'cmake'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extension 'python'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extensions ['python_setup_py']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index) by extension 'python_setup_py'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore_ament_install'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_pkg']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_pkg'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_meta']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_meta'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extensions ['ros']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extension 'ros'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extensions ['cmake', 'python']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extension 'cmake'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extension 'python'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extensions ['python_setup_py']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies) by extension 'python_setup_py'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extensions ['ignore', 'ignore_ament_install']
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extension 'ignore'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extension 'ignore_ament_install'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extensions ['colcon_pkg']
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extension 'colcon_pkg'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extensions ['colcon_meta']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extension 'colcon_meta'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extensions ['ros']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extension 'ros'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extensions ['cmake', 'python']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extension 'cmake'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extension 'python'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extensions ['python_setup_py']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/packages) by extension 'python_setup_py'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extensions ['ignore', 'ignore_ament_install']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore_ament_install'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_pkg']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_pkg'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_meta']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_meta'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extensions ['ros']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extension 'ros'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extensions ['cmake', 'python']
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extension 'cmake'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extension 'python'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extensions ['python_setup_py']
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path) by extension 'python_setup_py'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extension 'ignore'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extension 'ignore_ament_install'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extensions ['colcon_pkg']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extension 'colcon_pkg'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extensions ['colcon_meta']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extension 'colcon_meta'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extensions ['ros']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extension 'ros'
+[2.939s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'devtest_ws/install/articubot_one/share/articubot_one': Error(s) in package 'devtest_ws/install/articubot_one/share/articubot_one/package.xml':
+The manifest contains invalid XML:
+not well-formed (invalid token): line 1, column 0
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extensions ['cmake', 'python']
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extension 'cmake'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extension 'python'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extensions ['python_setup_py']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one) by extension 'python_setup_py'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extensions ['ignore', 'ignore_ament_install']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extension 'ignore'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extension 'ignore_ament_install'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extensions ['colcon_pkg']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extension 'colcon_pkg'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extensions ['colcon_meta']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extension 'colcon_meta'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extensions ['ros']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extension 'ros'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extensions ['cmake', 'python']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extension 'cmake'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extension 'python'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extensions ['python_setup_py']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/cmake) by extension 'python_setup_py'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extensions ['ignore', 'ignore_ament_install']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extension 'ignore'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extension 'ignore_ament_install'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extensions ['colcon_pkg']
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extension 'colcon_pkg'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extensions ['colcon_meta']
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extension 'colcon_meta'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extensions ['ros']
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extension 'ros'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extensions ['cmake', 'python']
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extension 'cmake'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extension 'python'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extensions ['python_setup_py']
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/config) by extension 'python_setup_py'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extensions ['ignore', 'ignore_ament_install']
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extension 'ignore'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extension 'ignore_ament_install'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extensions ['colcon_pkg']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extension 'colcon_pkg'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extensions ['colcon_meta']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extension 'colcon_meta'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extensions ['ros']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extension 'ros'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extensions ['cmake', 'python']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extension 'cmake'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extension 'python'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extensions ['python_setup_py']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description) by extension 'python_setup_py'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extensions ['ignore', 'ignore_ament_install']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extension 'ignore'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extension 'ignore_ament_install'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extensions ['colcon_pkg']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extension 'colcon_pkg'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extensions ['colcon_meta']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extension 'colcon_meta'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extensions ['ros']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extension 'ros'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extensions ['cmake', 'python']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extension 'cmake'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extension 'python'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extensions ['python_setup_py']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/description/meshes) by extension 'python_setup_py'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extensions ['ignore', 'ignore_ament_install']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extension 'ignore'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extension 'ignore_ament_install'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extensions ['colcon_pkg']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extension 'colcon_pkg'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extensions ['colcon_meta']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extension 'colcon_meta'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extensions ['ros']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extension 'ros'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extensions ['cmake', 'python']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extension 'cmake'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extension 'python'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extensions ['python_setup_py']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/environment) by extension 'python_setup_py'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extensions ['ignore', 'ignore_ament_install']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extension 'ignore'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extension 'ignore_ament_install'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extensions ['colcon_pkg']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extension 'colcon_pkg'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extensions ['colcon_meta']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extension 'colcon_meta'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extensions ['ros']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extension 'ros'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extensions ['cmake', 'python']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extension 'cmake'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extension 'python'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extensions ['python_setup_py']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/launch) by extension 'python_setup_py'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extensions ['ignore', 'ignore_ament_install']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extension 'ignore'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extension 'ignore_ament_install'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extensions ['colcon_pkg']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extension 'colcon_pkg'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extensions ['colcon_meta']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extension 'colcon_meta'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extensions ['ros']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extension 'ros'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extensions ['cmake', 'python']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extension 'cmake'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extension 'python'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extensions ['python_setup_py']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds) by extension 'python_setup_py'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extensions ['ignore', 'ignore_ament_install']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extension 'ignore'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extension 'ignore_ament_install'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extensions ['colcon_pkg']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extension 'colcon_pkg'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extensions ['colcon_meta']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extension 'colcon_meta'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extensions ['ros']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extension 'ros'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extensions ['cmake', 'python']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extension 'cmake'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extension 'python'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extensions ['python_setup_py']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/articubot_one/share/articubot_one/worlds/world1) by extension 'python_setup_py'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extension 'ignore'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extension 'ignore_ament_install'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extensions ['colcon_pkg']
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extension 'colcon_pkg'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extensions ['colcon_meta']
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extension 'colcon_meta'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extensions ['ros']
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extension 'ros'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extensions ['cmake', 'python']
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extension 'cmake'
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extension 'python'
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extensions ['python_setup_py']
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation) by extension 'python_setup_py'
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extensions ['ignore', 'ignore_ament_install']
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extension 'ignore'
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extension 'ignore_ament_install'
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extensions ['colcon_pkg']
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extension 'colcon_pkg'
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extensions ['colcon_meta']
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extension 'colcon_meta'
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extensions ['ros']
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extension 'ros'
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extensions ['cmake', 'python']
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extension 'cmake'
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extension 'python'
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extensions ['python_setup_py']
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share) by extension 'python_setup_py'
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extensions ['ignore', 'ignore_ament_install']
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extension 'ignore'
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extension 'ignore_ament_install'
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extensions ['colcon_pkg']
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extension 'colcon_pkg'
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extensions ['colcon_meta']
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extension 'colcon_meta'
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extensions ['ros']
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extension 'ros'
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extensions ['cmake', 'python']
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extension 'cmake'
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extension 'python'
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extensions ['python_setup_py']
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index) by extension 'python_setup_py'
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extensions ['ignore', 'ignore_ament_install']
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extension 'ignore'
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extension 'ignore_ament_install'
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extensions ['colcon_pkg']
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extension 'colcon_pkg'
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extensions ['colcon_meta']
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extension 'colcon_meta'
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extensions ['ros']
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extension 'ros'
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extensions ['cmake', 'python']
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extension 'cmake'
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extension 'python'
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extensions ['python_setup_py']
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index) by extension 'python_setup_py'
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore_ament_install'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_pkg']
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_pkg'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_meta']
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_meta'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extensions ['ros']
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extension 'ros'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extensions ['cmake', 'python']
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extension 'cmake'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extension 'python'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extensions ['python_setup_py']
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies) by extension 'python_setup_py'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extensions ['ignore', 'ignore_ament_install']
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extension 'ignore'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extension 'ignore_ament_install'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extensions ['colcon_pkg']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extension 'colcon_pkg'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extensions ['colcon_meta']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extension 'colcon_meta'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extensions ['ros']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extension 'ros'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extensions ['cmake', 'python']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extension 'cmake'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extension 'python'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extensions ['python_setup_py']
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages) by extension 'python_setup_py'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extensions ['ignore', 'ignore_ament_install']
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore_ament_install'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_pkg']
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_pkg'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_meta']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_meta'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extensions ['ros']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extension 'ros'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extensions ['cmake', 'python']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extension 'cmake'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extension 'python'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extensions ['python_setup_py']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path) by extension 'python_setup_py'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extension 'ignore'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extension 'ignore_ament_install'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extensions ['colcon_pkg']
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extension 'colcon_pkg'
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extensions ['colcon_meta']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extension 'colcon_meta'
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extensions ['ros']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extension 'ros'
+[2.968s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'devtest_ws/install/launch_navigation/share/launch_navigation': Error(s) in package 'devtest_ws/install/launch_navigation/share/launch_navigation/package.xml':
+The manifest contains invalid XML:
+not well-formed (invalid token): line 1, column 0
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extensions ['cmake', 'python']
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extension 'cmake'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extension 'python'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extensions ['python_setup_py']
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation) by extension 'python_setup_py'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extensions ['ignore', 'ignore_ament_install']
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extension 'ignore'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extension 'ignore_ament_install'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extensions ['colcon_pkg']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extension 'colcon_pkg'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extensions ['colcon_meta']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extension 'colcon_meta'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extensions ['ros']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extension 'ros'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extensions ['cmake', 'python']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extension 'cmake'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extension 'python'
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extensions ['python_setup_py']
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/cmake) by extension 'python_setup_py'
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extensions ['ignore', 'ignore_ament_install']
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extension 'ignore'
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extension 'ignore_ament_install'
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extensions ['colcon_pkg']
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extension 'colcon_pkg'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extensions ['colcon_meta']
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extension 'colcon_meta'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extensions ['ros']
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extension 'ros'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extensions ['cmake', 'python']
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extension 'cmake'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extension 'python'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extensions ['python_setup_py']
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/config) by extension 'python_setup_py'
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extensions ['ignore', 'ignore_ament_install']
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extension 'ignore'
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extension 'ignore_ament_install'
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extensions ['colcon_pkg']
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extension 'colcon_pkg'
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extensions ['colcon_meta']
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extension 'colcon_meta'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extensions ['ros']
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extension 'ros'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extensions ['cmake', 'python']
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extension 'cmake'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extension 'python'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extensions ['python_setup_py']
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/environment) by extension 'python_setup_py'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extensions ['ignore', 'ignore_ament_install']
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extension 'ignore'
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extension 'ignore_ament_install'
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extensions ['colcon_pkg']
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extension 'colcon_pkg'
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extensions ['colcon_meta']
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extension 'colcon_meta'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extensions ['ros']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extension 'ros'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extensions ['cmake', 'python']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extension 'cmake'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extension 'python'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extensions ['python_setup_py']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/launch) by extension 'python_setup_py'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extensions ['ignore', 'ignore_ament_install']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extension 'ignore'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extension 'ignore_ament_install'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extensions ['colcon_pkg']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extension 'colcon_pkg'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extensions ['colcon_meta']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extension 'colcon_meta'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extensions ['ros']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extension 'ros'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extensions ['cmake', 'python']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extension 'cmake'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extension 'python'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extensions ['python_setup_py']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/map) by extension 'python_setup_py'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extensions ['ignore', 'ignore_ament_install']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extension 'ignore'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extension 'ignore_ament_install'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extensions ['colcon_pkg']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extension 'colcon_pkg'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extensions ['colcon_meta']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extension 'colcon_meta'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extensions ['ros']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extension 'ros'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extensions ['cmake', 'python']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extension 'cmake'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extension 'python'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extensions ['python_setup_py']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/launch_navigation/share/launch_navigation/rviz) by extension 'python_setup_py'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extensions ['ignore', 'ignore_ament_install']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extension 'ignore'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extension 'ignore_ament_install'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extensions ['colcon_pkg']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extension 'colcon_pkg'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extensions ['colcon_meta']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extension 'colcon_meta'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extensions ['ros']
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extension 'ros'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extensions ['cmake', 'python']
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extension 'cmake'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extension 'python'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extensions ['python_setup_py']
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch) by extension 'python_setup_py'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extensions ['ignore', 'ignore_ament_install']
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extension 'ignore'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extension 'ignore_ament_install'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extensions ['colcon_pkg']
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extension 'colcon_pkg'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extensions ['colcon_meta']
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extension 'colcon_meta'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extensions ['ros']
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extension 'ros'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extensions ['cmake', 'python']
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extension 'cmake'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extension 'python'
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extensions ['python_setup_py']
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share) by extension 'python_setup_py'
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extensions ['ignore', 'ignore_ament_install']
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extension 'ignore'
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extension 'ignore_ament_install'
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extensions ['colcon_pkg']
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extension 'colcon_pkg'
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extensions ['colcon_meta']
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extension 'colcon_meta'
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extensions ['ros']
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extension 'ros'
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extensions ['cmake', 'python']
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extension 'cmake'
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extension 'python'
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extensions ['python_setup_py']
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index) by extension 'python_setup_py'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extensions ['ignore', 'ignore_ament_install']
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extension 'ignore'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extension 'ignore_ament_install'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extensions ['colcon_pkg']
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extension 'colcon_pkg'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extensions ['colcon_meta']
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extension 'colcon_meta'
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extensions ['ros']
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extension 'ros'
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extensions ['cmake', 'python']
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extension 'cmake'
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extension 'python'
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extensions ['python_setup_py']
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index) by extension 'python_setup_py'
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore'
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore_ament_install'
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_pkg']
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_pkg'
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_meta']
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_meta'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extensions ['ros']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extension 'ros'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extensions ['cmake', 'python']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extension 'cmake'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extension 'python'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extensions ['python_setup_py']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies) by extension 'python_setup_py'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extensions ['ignore', 'ignore_ament_install']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extension 'ignore'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extension 'ignore_ament_install'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extensions ['colcon_pkg']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extension 'colcon_pkg'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extensions ['colcon_meta']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extension 'colcon_meta'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extensions ['ros']
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extension 'ros'
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extensions ['cmake', 'python']
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extension 'cmake'
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extension 'python'
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extensions ['python_setup_py']
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages) by extension 'python_setup_py'
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extensions ['ignore', 'ignore_ament_install']
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore'
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore_ament_install'
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_pkg']
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_pkg'
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_meta']
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_meta'
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extensions ['ros']
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extension 'ros'
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extensions ['cmake', 'python']
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extension 'cmake'
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extension 'python'
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extensions ['python_setup_py']
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path) by extension 'python_setup_py'
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extensions ['ignore', 'ignore_ament_install']
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extension 'ignore'
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extension 'ignore_ament_install'
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extensions ['colcon_pkg']
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extension 'colcon_pkg'
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extensions ['colcon_meta']
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extension 'colcon_meta'
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extensions ['ros']
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extension 'ros'
+[2.993s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'devtest_ws/install/multi_robot_launch/share/multi_robot_launch': Error(s) in package 'devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.xml':
+The manifest contains invalid XML:
+not well-formed (invalid token): line 1, column 0
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extensions ['cmake', 'python']
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extension 'cmake'
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extension 'python'
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extensions ['python_setup_py']
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch) by extension 'python_setup_py'
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extensions ['ignore', 'ignore_ament_install']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extension 'ignore'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extension 'ignore_ament_install'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extensions ['colcon_pkg']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extension 'colcon_pkg'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extensions ['colcon_meta']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extension 'colcon_meta'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extensions ['ros']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extension 'ros'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extensions ['cmake', 'python']
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extension 'cmake'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extension 'python'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extensions ['python_setup_py']
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake) by extension 'python_setup_py'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extensions ['ignore', 'ignore_ament_install']
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extension 'ignore'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extension 'ignore_ament_install'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extensions ['colcon_pkg']
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extension 'colcon_pkg'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extensions ['colcon_meta']
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extension 'colcon_meta'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extensions ['ros']
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extension 'ros'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extensions ['cmake', 'python']
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extension 'cmake'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extension 'python'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extensions ['python_setup_py']
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment) by extension 'python_setup_py'
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extension 'ignore'
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extension 'colcon_pkg'
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extensions ['colcon_meta']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extension 'colcon_meta'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extensions ['ros']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extension 'ros'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extensions ['cmake', 'python']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extension 'cmake'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extension 'python'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extensions ['python_setup_py']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry) by extension 'python_setup_py'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extensions ['ignore', 'ignore_ament_install']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extension 'ignore'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extension 'ignore_ament_install'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extensions ['colcon_pkg']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extension 'colcon_pkg'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extensions ['colcon_meta']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extension 'colcon_meta'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extensions ['ros']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extension 'ros'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extensions ['cmake', 'python']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extension 'cmake'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extension 'python'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extensions ['python_setup_py']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib) by extension 'python_setup_py'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extension 'ignore'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extension 'colcon_pkg'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extensions ['colcon_meta']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extension 'colcon_meta'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extensions ['ros']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extension 'ros'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extensions ['cmake', 'python']
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extension 'cmake'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extension 'python'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extensions ['python_setup_py']
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry) by extension 'python_setup_py'
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extensions ['ignore', 'ignore_ament_install']
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extension 'ignore'
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extension 'ignore_ament_install'
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extensions ['colcon_pkg']
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extension 'colcon_pkg'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extensions ['colcon_meta']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extension 'colcon_meta'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extensions ['ros']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extension 'ros'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extensions ['cmake', 'python']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extension 'cmake'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extension 'python'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extensions ['python_setup_py']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share) by extension 'python_setup_py'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extensions ['ignore', 'ignore_ament_install']
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extension 'ignore'
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extension 'ignore_ament_install'
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extensions ['colcon_pkg']
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extension 'colcon_pkg'
+[3.011s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extensions ['colcon_meta']
+[3.011s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extension 'colcon_meta'
+[3.011s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extensions ['ros']
+[3.011s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extension 'ros'
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extensions ['cmake', 'python']
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extension 'cmake'
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extension 'python'
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extensions ['python_setup_py']
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index) by extension 'python_setup_py'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extensions ['ignore', 'ignore_ament_install']
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extension 'ignore'
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extension 'ignore_ament_install'
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extensions ['colcon_pkg']
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extension 'colcon_pkg'
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extensions ['colcon_meta']
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extension 'colcon_meta'
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extensions ['ros']
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extension 'ros'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extensions ['cmake', 'python']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extension 'cmake'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extension 'python'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extensions ['python_setup_py']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index) by extension 'python_setup_py'
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore_ament_install'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_pkg']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_pkg'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_meta']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_meta'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extensions ['ros']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extension 'ros'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extensions ['cmake', 'python']
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extension 'cmake'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extension 'python'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extensions ['python_setup_py']
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies) by extension 'python_setup_py'
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extensions ['ignore', 'ignore_ament_install']
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extension 'ignore'
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extension 'ignore_ament_install'
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extensions ['colcon_pkg']
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extension 'colcon_pkg'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extensions ['colcon_meta']
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extension 'colcon_meta'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extensions ['ros']
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extension 'ros'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extensions ['cmake', 'python']
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extension 'cmake'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extension 'python'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extensions ['python_setup_py']
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages) by extension 'python_setup_py'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extensions ['ignore', 'ignore_ament_install']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore_ament_install'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_pkg']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_pkg'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_meta']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_meta'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extensions ['ros']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extension 'ros'
+[3.028s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extensions ['cmake', 'python']
+[3.028s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extension 'cmake'
+[3.028s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extension 'python'
+[3.029s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extensions ['python_setup_py']
+[3.029s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path) by extension 'python_setup_py'
+[3.029s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extension 'ignore'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extension 'colcon_pkg'
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extensions ['colcon_meta']
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extension 'colcon_meta'
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extensions ['ros']
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extension 'ros'
+[3.032s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry': Error(s) in package 'devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml':
+The manifest contains invalid XML:
+not well-formed (invalid token): line 1, column 0
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extensions ['cmake', 'python']
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extension 'cmake'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extension 'python'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extensions ['python_setup_py']
+[3.034s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry) by extension 'python_setup_py'
+[3.034s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extensions ['ignore', 'ignore_ament_install']
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extension 'ignore'
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extension 'ignore_ament_install'
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extensions ['colcon_pkg']
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extension 'colcon_pkg'
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extensions ['colcon_meta']
+[3.036s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extension 'colcon_meta'
+[3.036s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extensions ['ros']
+[3.038s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extension 'ros'
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extensions ['cmake', 'python']
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extension 'cmake'
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extension 'python'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extensions ['python_setup_py']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake) by extension 'python_setup_py'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extensions ['ignore', 'ignore_ament_install']
+[3.041s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extension 'ignore'
+[3.041s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extension 'ignore_ament_install'
+[3.042s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extensions ['colcon_pkg']
+[3.042s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extension 'colcon_pkg'
+[3.042s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extensions ['colcon_meta']
+[3.042s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extension 'colcon_meta'
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extensions ['ros']
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extension 'ros'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extensions ['cmake', 'python']
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extension 'cmake'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extension 'python'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extensions ['python_setup_py']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment) by extension 'python_setup_py'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extensions ['ignore', 'ignore_ament_install']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extension 'ignore'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extension 'ignore_ament_install'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extensions ['colcon_pkg']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extension 'colcon_pkg'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extensions ['colcon_meta']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extension 'colcon_meta'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extensions ['ros']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extension 'ros'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extensions ['cmake', 'python']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extension 'cmake'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extension 'python'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extensions ['python_setup_py']
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch) by extension 'python_setup_py'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extension 'ignore'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extension 'ignore_ament_install'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extensions ['colcon_pkg']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extension 'colcon_pkg'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extensions ['colcon_meta']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extension 'colcon_meta'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extensions ['ros']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extension 'ros'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extensions ['cmake', 'python']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extension 'cmake'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extension 'python'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extensions ['python_setup_py']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws/log) by extension 'python_setup_py'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extensions ['ignore', 'ignore_ament_install']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extension 'ignore'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extension 'ignore_ament_install'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extensions ['colcon_pkg']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extension 'colcon_pkg'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extensions ['colcon_meta']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extension 'colcon_meta'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extensions ['ros']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extension 'ros'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extensions ['cmake', 'python']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extension 'cmake'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extension 'python'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extensions ['python_setup_py']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1) by extension 'python_setup_py'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/build) by extensions ['ignore', 'ignore_ament_install']
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/build) by extension 'ignore'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/build) ignored
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/install) by extensions ['ignore', 'ignore_ament_install']
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/install) by extension 'ignore'
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/install) ignored
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/log) by extensions ['ignore', 'ignore_ament_install']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/log) by extension 'ignore'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/log) ignored
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extensions ['ignore', 'ignore_ament_install']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extension 'ignore'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extension 'ignore_ament_install'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extensions ['colcon_pkg']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extension 'colcon_pkg'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extensions ['colcon_meta']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extension 'colcon_meta'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extensions ['ros']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extension 'ros'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extensions ['cmake', 'python']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extension 'cmake'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extension 'python'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extensions ['python_setup_py']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src) by extension 'python_setup_py'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extension 'ignore'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extension 'ignore_ament_install'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extensions ['colcon_pkg']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extension 'colcon_pkg'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extensions ['colcon_meta']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extension 'colcon_meta'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extensions ['ros']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/articubot_one) by extension 'ros'
+[3.070s] DEBUG:colcon.colcon_core.package_identification:Package 'devtest_ws1/src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extensions ['ignore', 'ignore_ament_install']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extension 'ignore'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extension 'ignore_ament_install'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extensions ['colcon_pkg']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extension 'colcon_pkg'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extensions ['colcon_meta']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extension 'colcon_meta'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extensions ['ros']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/launch_navigation) by extension 'ros'
+[3.074s] DEBUG:colcon.colcon_core.package_identification:Package 'devtest_ws1/src/launch_navigation' with type 'ros.ament_cmake' and name 'launch_navigation'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extension 'ignore'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extension 'colcon_meta'
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extensions ['ros']
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(devtest_ws1/src/rf2o_laser_odometry) by extension 'ros'
+[3.079s] DEBUG:colcon.colcon_core.package_identification:Package 'devtest_ws1/src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.598s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/madjid/devtest_ws_cbm/install
+[3.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 414 installed packages in /opt/ros/humble
+[3.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[3.938s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.938s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/madjid/devtest_ws_cbm/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/madjid/devtest_ws_cbm/install/articubot_one', 'merge_install': False, 'path': '/home/madjid/devtest_ws_cbm/devtest_ws1/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_args' from command line to 'None'
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_target' from command line to 'None'
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[3.974s] Level 5:colcon.colcon_core.verb:set package 'launch_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.975s] DEBUG:colcon.colcon_core.verb:Building package 'launch_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/madjid/devtest_ws_cbm/build/launch_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/madjid/devtest_ws_cbm/install/launch_navigation', 'merge_install': False, 'path': '/home/madjid/devtest_ws_cbm/devtest_ws1/src/launch_navigation', 'symlink_install': True, 'test_result_base': None}
+[4.016s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[4.016s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[4.016s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.016s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[4.016s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.017s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/madjid/devtest_ws_cbm/devtest_ws1/src/rf2o_laser_odometry', 'symlink_install': True, 'test_result_base': None}
+[4.070s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/madjid/devtest_ws_cbm/devtest_ws1/src/articubot_one' with build type 'ament_cmake'
+[4.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/madjid/devtest_ws_cbm/devtest_ws1/src/articubot_one'
+[4.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/madjid/devtest_ws_cbm/devtest_ws1/src/launch_navigation' with build type 'ament_cmake'
+[4.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/madjid/devtest_ws_cbm/devtest_ws1/src/launch_navigation'
+[4.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.464s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/madjid/devtest_ws_cbm/devtest_ws1/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[4.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/madjid/devtest_ws_cbm/devtest_ws1/src/rf2o_laser_odometry'
+[4.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madjid/devtest_ws_cbm/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/articubot_one -- -j4 -l4
+[4.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madjid/devtest_ws_cbm/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/launch_navigation -- -j4 -l4
+[4.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry -- -j4 -l4
+[4.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madjid/devtest_ws_cbm/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/articubot_one -- -j4 -l4
+[4.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madjid/devtest_ws_cbm/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/launch_navigation -- -j4 -l4
+[4.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madjid/devtest_ws_cbm/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/articubot_one
+[4.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madjid/devtest_ws_cbm/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/launch_navigation
+[4.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[4.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madjid/devtest_ws_cbm/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/articubot_one
+[4.932s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one' for CMake module files
+[4.933s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one' for CMake config files
+[4.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[4.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[4.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one/bin'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one/lib/python3.10/site-packages'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one/bin'
+[4.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.ps1'
+[4.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.dsv'
+[4.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.sh'
+[4.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.bash'
+[4.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.zsh'
+[4.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madjid/devtest_ws_cbm/install/articubot_one/share/colcon-core/packages/articubot_one)
+[5.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry -- -j4 -l4
+[5.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_navigation)
+[5.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madjid/devtest_ws_cbm/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/launch_navigation
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation' for CMake module files
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation' for CMake config files
+[5.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_navigation', 'cmake_prefix_path')
+[5.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.ps1'
+[5.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.dsv'
+[5.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.sh'
+[5.072s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation/bin'
+[5.072s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation/lib/pkgconfig/launch_navigation.pc'
+[5.073s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation/lib/python3.10/site-packages'
+[5.073s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation/bin'
+[5.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.ps1'
+[5.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.dsv'
+[5.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.sh'
+[5.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.bash'
+[5.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.zsh'
+[5.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madjid/devtest_ws_cbm/install/launch_navigation/share/colcon-core/packages/launch_navigation)
+[5.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[5.269s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one' for CMake module files
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one' for CMake config files
+[5.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[5.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[5.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[5.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[5.327s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one/bin'
+[5.327s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[5.328s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one/lib/python3.10/site-packages'
+[5.329s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/articubot_one/bin'
+[5.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.ps1'
+[5.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.dsv'
+[5.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.sh'
+[5.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.bash'
+[5.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/articubot_one/share/articubot_one/package.zsh'
+[5.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madjid/devtest_ws_cbm/install/articubot_one/share/colcon-core/packages/articubot_one)
+[5.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry
+[5.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_navigation)
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation' for CMake module files
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation' for CMake config files
+[5.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_navigation', 'cmake_prefix_path')
+[5.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.ps1'
+[5.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.dsv'
+[5.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/hook/cmake_prefix_path.sh'
+[5.614s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation/bin'
+[5.614s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation/lib/pkgconfig/launch_navigation.pc'
+[5.615s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation/lib/python3.10/site-packages'
+[5.616s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/launch_navigation/bin'
+[5.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.ps1'
+[5.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.dsv'
+[5.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.sh'
+[5.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.bash'
+[5.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.zsh'
+[5.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madjid/devtest_ws_cbm/install/launch_navigation/share/colcon-core/packages/launch_navigation)
+[5.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[5.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry
+[5.748s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry' for CMake module files
+[5.750s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry' for CMake config files
+[5.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[5.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[5.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[5.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[5.829s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/lib'
+[5.830s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/bin'
+[5.830s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[5.830s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[5.831s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/bin'
+[5.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[5.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[5.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[5.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[6.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[6.078s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry' for CMake module files
+[6.079s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry' for CMake config files
+[6.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[6.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[6.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[6.120s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/lib'
+[6.120s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/bin'
+[6.120s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[6.121s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/bin'
+[6.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[6.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[6.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[6.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[6.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[6.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[6.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.199s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.265s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.310s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.372s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/madjid/devtest_ws_cbm/install/local_setup.ps1'
+[6.374s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/madjid/devtest_ws_cbm/install/_local_setup_util_ps1.py'
+[6.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/madjid/devtest_ws_cbm/install/setup.ps1'
+[6.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/madjid/devtest_ws_cbm/install/local_setup.sh'
+[6.416s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/madjid/devtest_ws_cbm/install/_local_setup_util_sh.py'
+[6.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/madjid/devtest_ws_cbm/install/setup.sh'
+[6.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/madjid/devtest_ws_cbm/install/local_setup.bash'
+[6.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/madjid/devtest_ws_cbm/install/setup.bash'
+[6.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/madjid/devtest_ws_cbm/install/local_setup.zsh'
+[6.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/madjid/devtest_ws_cbm/install/setup.zsh'

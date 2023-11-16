@@ -1,0 +1,143 @@
+[1.445s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.445s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f94091ecca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f94091ec730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f94091ec730>>)
+[1.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.595s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yehia/devtest_ws'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[1.711s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.811s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/yehia/cloudy_ws/install
+[1.819s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yehia/ros2_turtle/install
+[1.827s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yehia/ros2_ws/install
+[1.843s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 353 installed packages in /opt/ros/humble
+[1.860s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.246s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.253s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yehia/devtest_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yehia/devtest_ws/install/articubot_one', 'merge_install': False, 'path': '/home/yehia/devtest_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[2.256s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yehia/devtest_ws/src/articubot_one' with build type 'ament_cmake'
+[2.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yehia/devtest_ws/src/articubot_one'
+[2.302s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.303s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/articubot_one
+[6.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/articubot_one
+[6.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/articubot_one -- -j2 -l2
+[6.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/articubot_one -- -j2 -l2
+[7.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/articubot_one
+[8.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[8.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/home/yehia/ros2_ws/install/my_robot_controller:/home/yehia/ros2_turtle/install/my_turtle_controller:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/articubot_one
+[8.317s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one' for CMake module files
+[8.319s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one' for CMake config files
+[8.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[8.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[8.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[8.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[8.347s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/bin'
+[8.348s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[8.349s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/lib/python3.10/site-packages'
+[8.354s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/bin'
+[8.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.ps1'
+[8.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.dsv'
+[8.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.sh'
+[8.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.bash'
+[8.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.zsh'
+[8.377s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[8.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[8.599s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one' for CMake module files
+[8.601s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one' for CMake config files
+[8.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[8.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[8.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[8.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[8.619s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/bin'
+[8.620s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[8.620s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/lib/python3.10/site-packages'
+[8.621s] Level 1:colcon.colcon_core.environment:checking '/home/yehia/devtest_ws/install/articubot_one/bin'
+[8.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.ps1'
+[8.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.dsv'
+[8.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.sh'
+[8.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.bash'
+[8.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.zsh'
+[8.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yehia/devtest_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[8.640s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.641s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.642s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.671s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.765s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yehia/devtest_ws/install/local_setup.ps1'
+[8.776s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yehia/devtest_ws/install/_local_setup_util_ps1.py'
+[8.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yehia/devtest_ws/install/setup.ps1'
+[8.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yehia/devtest_ws/install/local_setup.sh'
+[8.795s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yehia/devtest_ws/install/_local_setup_util_sh.py'
+[8.797s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yehia/devtest_ws/install/setup.sh'
+[8.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yehia/devtest_ws/install/local_setup.bash'
+[8.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yehia/devtest_ws/install/setup.bash'
+[8.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yehia/devtest_ws/install/local_setup.zsh'
+[8.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yehia/devtest_ws/install/setup.zsh'

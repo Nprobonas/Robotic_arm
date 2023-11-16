@@ -1,0 +1,603 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.001288] (launch_navigation) JobQueued: {'identifier': 'launch_navigation', 'dependencies': OrderedDict()}
+[0.001504] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.001575] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.025337] (launch_navigation) JobStarted: {'identifier': 'launch_navigation'}
+[0.035206] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.043632] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.045559] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.047318] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yehia/devtest_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/yehia/devtest_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'yehia'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yehia'), ('OLDPWD', '/home/yehia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1616'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1767'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yehia/devtest_ws/install:/home/yehia/cloudy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yehia'), ('JOURNAL_STREAM', '8:42090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yehia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yehia-virtual-machine:@/tmp/.ICE-unix/1767,unix/yehia-virtual-machine:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '1007eb1fda0a4dceb5f1ed527dd77a95'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('TILIX_ID', '929fd6c6-7f47-4055-8866-5bed9adb0a77'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F5WR91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yehia/devtest_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages:/home/yehia/cloudy_ws/build/mecanum_control:/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[0.051455] (launch_navigation) JobProgress: {'identifier': 'launch_navigation', 'progress': 'cmake'}
+[0.052722] (launch_navigation) JobProgress: {'identifier': 'launch_navigation', 'progress': 'build'}
+[0.054694] (launch_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yehia/devtest_ws/build/launch_navigation', '--', '-j4', '-l4'], 'cwd': '/home/yehia/devtest_ws/build/launch_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'yehia'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yehia'), ('OLDPWD', '/home/yehia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1616'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1767'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yehia/devtest_ws/install:/home/yehia/cloudy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yehia'), ('JOURNAL_STREAM', '8:42090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yehia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yehia-virtual-machine:@/tmp/.ICE-unix/1767,unix/yehia-virtual-machine:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '1007eb1fda0a4dceb5f1ed527dd77a95'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('TILIX_ID', '929fd6c6-7f47-4055-8866-5bed9adb0a77'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F5WR91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yehia/devtest_ws/build/launch_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages:/home/yehia/cloudy_ws/build/mecanum_control:/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[0.057526] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.058727] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/yehia/devtest_ws/src/rf2o_laser_odometry', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/rf2o_laser_odometry'], 'cwd': '/home/yehia/devtest_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'yehia'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yehia'), ('OLDPWD', '/home/yehia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1616'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1767'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yehia/devtest_ws/install:/home/yehia/cloudy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yehia'), ('JOURNAL_STREAM', '8:42090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yehia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yehia-virtual-machine:@/tmp/.ICE-unix/1767,unix/yehia-virtual-machine:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '1007eb1fda0a4dceb5f1ed527dd77a95'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('TILIX_ID', '929fd6c6-7f47-4055-8866-5bed9adb0a77'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F5WR91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yehia/devtest_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages:/home/yehia/cloudy_ws/build/mecanum_control:/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[0.082018] (launch_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.084313] (articubot_one) CommandEnded: {'returncode': 0}
+[0.099155] (-) TimerEvent: {}
+[0.106439] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[0.117234] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yehia/devtest_ws/build/articubot_one'], 'cwd': '/home/yehia/devtest_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'yehia'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yehia'), ('OLDPWD', '/home/yehia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1616'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1767'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yehia/devtest_ws/install:/home/yehia/cloudy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yehia'), ('JOURNAL_STREAM', '8:42090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yehia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yehia-virtual-machine:@/tmp/.ICE-unix/1767,unix/yehia-virtual-machine:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '1007eb1fda0a4dceb5f1ed527dd77a95'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('TILIX_ID', '929fd6c6-7f47-4055-8866-5bed9adb0a77'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F5WR91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yehia/devtest_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages:/home/yehia/cloudy_ws/build/mecanum_control:/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[0.117849] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.124018] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.124492] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.124706] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[0.124962] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[0.125080] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[0.129150] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/cloudy_v2_properties.urdf.xacro\n'}
+[0.129476] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/deph_camera.xacro\n'}
+[0.129735] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[0.129865] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[0.129984] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/laser.xacro\n'}
+[0.130098] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/meshes/body_v2.stl\n'}
+[0.130270] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/meshes/lidar.stl\n'}
+[0.130675] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/meshes/realsense.stl\n'}
+[0.130799] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/meshes/wheel_v2.stl\n'}
+[0.130915] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/omni_drive.urdf.xacro\n'}
+[0.131029] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[0.131143] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[0.131254] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/test.urdf\n'}
+[0.131407] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/gazebo.launch.py\n'}
+[0.131525] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[0.131655] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[0.131767] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[0.131876] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[0.131987] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[0.132097] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/model.config\n'}
+[0.132210] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/model.sdf\n'}
+[0.132355] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/test.world\n'}
+[0.132514] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/world1.world\n'}
+[0.132632] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/world1/model.config\n'}
+[0.132763] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/world1/model.sdf\n'}
+[0.132883] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[0.133074] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[0.133213] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[0.133389] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[0.133561] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[0.133732] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[0.133901] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[0.134421] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[0.134603] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[0.134775] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[0.134946] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[0.136021] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[0.136192] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[0.136272] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[0.136374] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[0.143533] (articubot_one) CommandEnded: {'returncode': 0}
+[0.194347] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199390] (-) TimerEvent: {}
+[0.200437] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[0.201632] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.235267] (launch_navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.240260] (launch_navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.275080] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.282114] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.282238] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.282904] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.288175] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300354] (-) TimerEvent: {}
+[0.342255] (launch_navigation) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.347697] (launch_navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.347871] (launch_navigation) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.347908] (launch_navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.347936] (launch_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.356276] (launch_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[0.365642] (launch_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/yehia/devtest_ws/build/launch_navigation\n'}
+[0.384207] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.389464] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.389833] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.390446] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.393006] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.397268] (launch_navigation) CommandEnded: {'returncode': 0}
+[0.403638] (-) TimerEvent: {}
+[0.422092] (launch_navigation) JobProgress: {'identifier': 'launch_navigation', 'progress': 'install'}
+[0.422155] (launch_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yehia/devtest_ws/build/launch_navigation'], 'cwd': '/home/yehia/devtest_ws/build/launch_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'yehia'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yehia'), ('OLDPWD', '/home/yehia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1616'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1767'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yehia/devtest_ws/install:/home/yehia/cloudy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yehia'), ('JOURNAL_STREAM', '8:42090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yehia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yehia-virtual-machine:@/tmp/.ICE-unix/1767,unix/yehia-virtual-machine:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '1007eb1fda0a4dceb5f1ed527dd77a95'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('TILIX_ID', '929fd6c6-7f47-4055-8866-5bed9adb0a77'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F5WR91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yehia/devtest_ws/build/launch_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages:/home/yehia/cloudy_ws/build/mecanum_control:/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[0.429873] (launch_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.431561] (launch_navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.433000] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/navigation.launch.py\n'}
+[0.433629] (launch_navigation) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_launch_all.launch.py\n'}
+[0.445483] (launch_navigation) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_nav.launch.py\n'}
+[0.453765] (launch_navigation) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_slam.launch.py\n'}
+[0.463551] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies/launch_navigation\n'}
+[0.464050] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path/launch_navigation\n'}
+[0.464558] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.sh\n'}
+[0.465022] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.dsv\n'}
+[0.465496] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/path.sh\n'}
+[0.466203] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/path.dsv\n'}
+[0.466453] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.bash\n'}
+[0.466859] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.sh\n'}
+[0.467109] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.zsh\n'}
+[0.467348] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.dsv\n'}
+[0.467680] (launch_navigation) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.dsv\n'}
+[0.477034] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages/launch_navigation\n'}
+[0.477754] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig.cmake\n'}
+[0.477870] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig-version.cmake\n'}
+[0.478400] (launch_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.xml\n'}
+[0.481079] (launch_navigation) CommandEnded: {'returncode': 0}
+[0.504170] (-) TimerEvent: {}
+[0.533348] (launch_navigation) JobEnded: {'identifier': 'launch_navigation', 'rc': 0}
+[0.597778] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.607866] (-) TimerEvent: {}
+[0.678664] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.710256] (-) TimerEvent: {}
+[0.715448] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.774107] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.781482] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.794660] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.810524] (-) TimerEvent: {}
+[0.810649] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.832433] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.911034] (-) TimerEvent: {}
+[0.934611] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.945520] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.023950] (-) TimerEvent: {}
+[1.092466] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.124997] (-) TimerEvent: {}
+[1.137759] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.204854] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.219810] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.225460] (-) TimerEvent: {}
+[1.320233] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.321165] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.331331] (-) TimerEvent: {}
+[1.436569] (-) TimerEvent: {}
+[1.443435] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.445922] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.536801] (-) TimerEvent: {}
+[1.643637] (-) TimerEvent: {}
+[1.738040] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.752902] (-) TimerEvent: {}
+[1.800789] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.822853] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.824460] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.824752] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.861867] (-) TimerEvent: {}
+[1.968490] (-) TimerEvent: {}
+[2.074086] (-) TimerEvent: {}
+[2.176840] (-) TimerEvent: {}
+[2.278803] (-) TimerEvent: {}
+[2.366673] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.387348] (-) TimerEvent: {}
+[2.470082] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.490301] (-) TimerEvent: {}
+[2.590734] (-) TimerEvent: {}
+[2.633717] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[2.697259] (-) TimerEvent: {}
+[2.723621] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.745939] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[2.749077] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/yehia/devtest_ws/build/rf2o_laser_odometry\n'}
+[2.760481] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[2.763446] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[2.763615] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yehia/devtest_ws/build/rf2o_laser_odometry', '--', '-j4', '-l4'], 'cwd': '/home/yehia/devtest_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'yehia'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yehia'), ('OLDPWD', '/home/yehia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1616'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1767'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yehia/devtest_ws/install:/home/yehia/cloudy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yehia'), ('JOURNAL_STREAM', '8:42090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yehia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yehia-virtual-machine:@/tmp/.ICE-unix/1767,unix/yehia-virtual-machine:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '1007eb1fda0a4dceb5f1ed527dd77a95'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('TILIX_ID', '929fd6c6-7f47-4055-8866-5bed9adb0a77'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F5WR91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yehia/devtest_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages:/home/yehia/cloudy_ws/build/mecanum_control:/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[2.802384] (-) TimerEvent: {}
+[2.832311] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[2.836833] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[2.846647] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[2.902581] (-) TimerEvent: {}
+[3.003079] (-) TimerEvent: {}
+[3.103572] (-) TimerEvent: {}
+[3.203917] (-) TimerEvent: {}
+[3.304262] (-) TimerEvent: {}
+[3.404574] (-) TimerEvent: {}
+[3.505054] (-) TimerEvent: {}
+[3.605365] (-) TimerEvent: {}
+[3.705743] (-) TimerEvent: {}
+[3.806064] (-) TimerEvent: {}
+[3.906371] (-) TimerEvent: {}
+[4.007097] (-) TimerEvent: {}
+[4.107714] (-) TimerEvent: {}
+[4.208046] (-) TimerEvent: {}
+[4.308477] (-) TimerEvent: {}
+[4.408779] (-) TimerEvent: {}
+[4.509126] (-) TimerEvent: {}
+[4.610049] (-) TimerEvent: {}
+[4.710656] (-) TimerEvent: {}
+[4.810961] (-) TimerEvent: {}
+[4.911548] (-) TimerEvent: {}
+[5.012242] (-) TimerEvent: {}
+[5.112648] (-) TimerEvent: {}
+[5.213055] (-) TimerEvent: {}
+[5.313375] (-) TimerEvent: {}
+[5.421103] (-) TimerEvent: {}
+[5.522597] (-) TimerEvent: {}
+[5.622978] (-) TimerEvent: {}
+[5.723305] (-) TimerEvent: {}
+[5.823617] (-) TimerEvent: {}
+[5.923953] (-) TimerEvent: {}
+[6.024319] (-) TimerEvent: {}
+[6.124662] (-) TimerEvent: {}
+[6.225218] (-) TimerEvent: {}
+[6.325759] (-) TimerEvent: {}
+[6.426074] (-) TimerEvent: {}
+[6.526372] (-) TimerEvent: {}
+[6.626713] (-) TimerEvent: {}
+[6.727035] (-) TimerEvent: {}
+[6.827395] (-) TimerEvent: {}
+[6.927752] (-) TimerEvent: {}
+[7.028148] (-) TimerEvent: {}
+[7.128489] (-) TimerEvent: {}
+[7.228976] (-) TimerEvent: {}
+[7.329315] (-) TimerEvent: {}
+[7.429729] (-) TimerEvent: {}
+[7.530086] (-) TimerEvent: {}
+[7.630460] (-) TimerEvent: {}
+[7.730800] (-) TimerEvent: {}
+[7.831223] (-) TimerEvent: {}
+[7.931562] (-) TimerEvent: {}
+[8.031946] (-) TimerEvent: {}
+[8.132722] (-) TimerEvent: {}
+[8.233262] (-) TimerEvent: {}
+[8.334005] (-) TimerEvent: {}
+[8.434893] (-) TimerEvent: {}
+[8.535271] (-) TimerEvent: {}
+[8.635592] (-) TimerEvent: {}
+[8.736004] (-) TimerEvent: {}
+[8.836359] (-) TimerEvent: {}
+[8.936799] (-) TimerEvent: {}
+[9.037241] (-) TimerEvent: {}
+[9.137722] (-) TimerEvent: {}
+[9.238148] (-) TimerEvent: {}
+[9.338444] (-) TimerEvent: {}
+[9.438935] (-) TimerEvent: {}
+[9.539279] (-) TimerEvent: {}
+[9.639995] (-) TimerEvent: {}
+[9.740368] (-) TimerEvent: {}
+[9.840688] (-) TimerEvent: {}
+[9.941086] (-) TimerEvent: {}
+[10.041424] (-) TimerEvent: {}
+[10.142004] (-) TimerEvent: {}
+[10.242354] (-) TimerEvent: {}
+[10.342727] (-) TimerEvent: {}
+[10.443174] (-) TimerEvent: {}
+[10.543675] (-) TimerEvent: {}
+[10.644057] (-) TimerEvent: {}
+[10.744477] (-) TimerEvent: {}
+[10.850372] (-) TimerEvent: {}
+[10.952188] (-) TimerEvent: {}
+[11.052520] (-) TimerEvent: {}
+[11.152973] (-) TimerEvent: {}
+[11.253424] (-) TimerEvent: {}
+[11.353894] (-) TimerEvent: {}
+[11.454256] (-) TimerEvent: {}
+[11.554626] (-) TimerEvent: {}
+[11.654993] (-) TimerEvent: {}
+[11.755329] (-) TimerEvent: {}
+[11.855781] (-) TimerEvent: {}
+[11.956311] (-) TimerEvent: {}
+[12.056741] (-) TimerEvent: {}
+[12.157162] (-) TimerEvent: {}
+[12.257589] (-) TimerEvent: {}
+[12.357987] (-) TimerEvent: {}
+[12.458295] (-) TimerEvent: {}
+[12.558638] (-) TimerEvent: {}
+[12.658973] (-) TimerEvent: {}
+[12.759385] (-) TimerEvent: {}
+[12.860241] (-) TimerEvent: {}
+[12.961117] (-) TimerEvent: {}
+[13.062323] (-) TimerEvent: {}
+[13.163195] (-) TimerEvent: {}
+[13.263798] (-) TimerEvent: {}
+[13.364786] (-) TimerEvent: {}
+[13.466223] (-) TimerEvent: {}
+[13.566831] (-) TimerEvent: {}
+[13.667439] (-) TimerEvent: {}
+[13.767830] (-) TimerEvent: {}
+[13.868274] (-) TimerEvent: {}
+[13.968737] (-) TimerEvent: {}
+[14.069169] (-) TimerEvent: {}
+[14.169598] (-) TimerEvent: {}
+[14.269975] (-) TimerEvent: {}
+[14.370322] (-) TimerEvent: {}
+[14.470853] (-) TimerEvent: {}
+[14.571189] (-) TimerEvent: {}
+[14.671587] (-) TimerEvent: {}
+[14.771957] (-) TimerEvent: {}
+[14.872374] (-) TimerEvent: {}
+[14.972722] (-) TimerEvent: {}
+[15.073047] (-) TimerEvent: {}
+[15.173414] (-) TimerEvent: {}
+[15.273747] (-) TimerEvent: {}
+[15.374070] (-) TimerEvent: {}
+[15.474468] (-) TimerEvent: {}
+[15.574827] (-) TimerEvent: {}
+[15.675303] (-) TimerEvent: {}
+[15.775629] (-) TimerEvent: {}
+[15.876062] (-) TimerEvent: {}
+[15.976356] (-) TimerEvent: {}
+[16.076726] (-) TimerEvent: {}
+[16.177218] (-) TimerEvent: {}
+[16.277662] (-) TimerEvent: {}
+[16.378020] (-) TimerEvent: {}
+[16.478362] (-) TimerEvent: {}
+[16.578688] (-) TimerEvent: {}
+[16.679148] (-) TimerEvent: {}
+[16.779462] (-) TimerEvent: {}
+[16.880064] (-) TimerEvent: {}
+[16.980604] (-) TimerEvent: {}
+[17.080908] (-) TimerEvent: {}
+[17.181264] (-) TimerEvent: {}
+[17.281588] (-) TimerEvent: {}
+[17.381914] (-) TimerEvent: {}
+[17.482620] (-) TimerEvent: {}
+[17.582947] (-) TimerEvent: {}
+[17.683306] (-) TimerEvent: {}
+[17.783701] (-) TimerEvent: {}
+[17.884054] (-) TimerEvent: {}
+[17.984534] (-) TimerEvent: {}
+[18.084871] (-) TimerEvent: {}
+[18.185463] (-) TimerEvent: {}
+[18.285784] (-) TimerEvent: {}
+[18.386099] (-) TimerEvent: {}
+[18.486518] (-) TimerEvent: {}
+[18.586860] (-) TimerEvent: {}
+[18.687217] (-) TimerEvent: {}
+[18.787768] (-) TimerEvent: {}
+[18.888216] (-) TimerEvent: {}
+[18.988819] (-) TimerEvent: {}
+[19.089208] (-) TimerEvent: {}
+[19.189547] (-) TimerEvent: {}
+[19.290087] (-) TimerEvent: {}
+[19.390641] (-) TimerEvent: {}
+[19.490963] (-) TimerEvent: {}
+[19.593187] (-) TimerEvent: {}
+[19.693776] (-) TimerEvent: {}
+[19.794095] (-) TimerEvent: {}
+[19.894684] (-) TimerEvent: {}
+[19.997396] (-) TimerEvent: {}
+[20.097764] (-) TimerEvent: {}
+[20.198212] (-) TimerEvent: {}
+[20.298616] (-) TimerEvent: {}
+[20.399078] (-) TimerEvent: {}
+[20.499542] (-) TimerEvent: {}
+[20.600209] (-) TimerEvent: {}
+[20.700906] (-) TimerEvent: {}
+[20.801679] (-) TimerEvent: {}
+[20.902078] (-) TimerEvent: {}
+[21.002589] (-) TimerEvent: {}
+[21.103000] (-) TimerEvent: {}
+[21.204345] (-) TimerEvent: {}
+[21.305027] (-) TimerEvent: {}
+[21.405949] (-) TimerEvent: {}
+[21.506861] (-) TimerEvent: {}
+[21.608193] (-) TimerEvent: {}
+[21.710011] (-) TimerEvent: {}
+[21.811573] (-) TimerEvent: {}
+[21.912270] (-) TimerEvent: {}
+[22.013345] (-) TimerEvent: {}
+[22.114462] (-) TimerEvent: {}
+[22.215432] (-) TimerEvent: {}
+[22.316209] (-) TimerEvent: {}
+[22.417542] (-) TimerEvent: {}
+[22.519105] (-) TimerEvent: {}
+[22.620170] (-) TimerEvent: {}
+[22.720927] (-) TimerEvent: {}
+[22.821891] (-) TimerEvent: {}
+[22.923114] (-) TimerEvent: {}
+[23.023990] (-) TimerEvent: {}
+[23.124755] (-) TimerEvent: {}
+[23.226135] (-) TimerEvent: {}
+[23.327312] (-) TimerEvent: {}
+[23.428756] (-) TimerEvent: {}
+[23.529461] (-) TimerEvent: {}
+[23.629844] (-) TimerEvent: {}
+[23.730212] (-) TimerEvent: {}
+[23.830565] (-) TimerEvent: {}
+[23.930957] (-) TimerEvent: {}
+[24.031341] (-) TimerEvent: {}
+[24.132021] (-) TimerEvent: {}
+[24.232538] (-) TimerEvent: {}
+[24.333419] (-) TimerEvent: {}
+[24.434621] (-) TimerEvent: {}
+[24.535531] (-) TimerEvent: {}
+[24.636352] (-) TimerEvent: {}
+[24.737056] (-) TimerEvent: {}
+[24.838300] (-) TimerEvent: {}
+[24.940261] (-) TimerEvent: {}
+[25.042011] (-) TimerEvent: {}
+[25.143360] (-) TimerEvent: {}
+[25.244737] (-) TimerEvent: {}
+[25.349879] (-) TimerEvent: {}
+[25.454938] (-) TimerEvent: {}
+[25.555769] (-) TimerEvent: {}
+[25.658923] (-) TimerEvent: {}
+[25.759436] (-) TimerEvent: {}
+[25.859838] (-) TimerEvent: {}
+[25.963873] (-) TimerEvent: {}
+[26.064415] (-) TimerEvent: {}
+[26.165918] (-) TimerEvent: {}
+[26.267507] (-) TimerEvent: {}
+[26.368225] (-) TimerEvent: {}
+[26.474188] (-) TimerEvent: {}
+[26.582800] (-) TimerEvent: {}
+[26.692929] (-) TimerEvent: {}
+[26.801474] (-) TimerEvent: {}
+[26.906648] (-) TimerEvent: {}
+[27.011259] (-) TimerEvent: {}
+[27.116536] (-) TimerEvent: {}
+[27.218688] (-) TimerEvent: {}
+[27.328024] (-) TimerEvent: {}
+[27.435551] (-) TimerEvent: {}
+[27.541454] (-) TimerEvent: {}
+[27.650591] (-) TimerEvent: {}
+[27.751132] (-) TimerEvent: {}
+[27.851720] (-) TimerEvent: {}
+[27.959526] (-) TimerEvent: {}
+[28.060824] (-) TimerEvent: {}
+[28.166799] (-) TimerEvent: {}
+[28.268422] (-) TimerEvent: {}
+[28.377171] (-) TimerEvent: {}
+[28.479984] (-) TimerEvent: {}
+[28.583279] (-) TimerEvent: {}
+[28.683879] (-) TimerEvent: {}
+[28.785276] (-) TimerEvent: {}
+[28.885686] (-) TimerEvent: {}
+[28.993320] (-) TimerEvent: {}
+[29.101741] (-) TimerEvent: {}
+[29.210872] (-) TimerEvent: {}
+[29.318581] (-) TimerEvent: {}
+[29.425260] (-) TimerEvent: {}
+[29.532540] (-) TimerEvent: {}
+[29.640508] (-) TimerEvent: {}
+[29.748009] (-) TimerEvent: {}
+[29.855020] (-) TimerEvent: {}
+[29.963413] (-) TimerEvent: {}
+[30.070723] (-) TimerEvent: {}
+[30.177619] (-) TimerEvent: {}
+[30.285346] (-) TimerEvent: {}
+[30.390903] (-) TimerEvent: {}
+[30.497971] (-) TimerEvent: {}
+[30.610135] (-) TimerEvent: {}
+[30.718379] (-) TimerEvent: {}
+[30.826078] (-) TimerEvent: {}
+[30.930791] (-) TimerEvent: {}
+[31.042895] (-) TimerEvent: {}
+[31.151905] (-) TimerEvent: {}
+[31.254143] (-) TimerEvent: {}
+[31.367828] (-) TimerEvent: {}
+[31.474777] (-) TimerEvent: {}
+[31.583352] (-) TimerEvent: {}
+[31.691589] (-) TimerEvent: {}
+[31.798007] (-) TimerEvent: {}
+[31.903010] (-) TimerEvent: {}
+[32.006575] (-) TimerEvent: {}
+[32.109593] (-) TimerEvent: {}
+[32.211602] (-) TimerEvent: {}
+[32.318851] (-) TimerEvent: {}
+[32.419553] (-) TimerEvent: {}
+[32.520372] (-) TimerEvent: {}
+[32.621801] (-) TimerEvent: {}
+[32.723321] (-) TimerEvent: {}
+[32.824265] (-) TimerEvent: {}
+[32.925047] (-) TimerEvent: {}
+[33.030283] (-) TimerEvent: {}
+[33.135905] (-) TimerEvent: {}
+[33.236588] (-) TimerEvent: {}
+[33.337128] (-) TimerEvent: {}
+[33.438370] (-) TimerEvent: {}
+[33.542431] (-) TimerEvent: {}
+[33.646754] (-) TimerEvent: {}
+[33.761679] (-) TimerEvent: {}
+[33.866171] (-) TimerEvent: {}
+[33.966929] (-) TimerEvent: {}
+[34.069968] (-) TimerEvent: {}
+[34.178699] (-) TimerEvent: {}
+[34.285945] (-) TimerEvent: {}
+[34.394055] (-) TimerEvent: {}
+[34.498715] (-) TimerEvent: {}
+[34.610214] (-) TimerEvent: {}
+[34.712245] (-) TimerEvent: {}
+[34.825836] (-) TimerEvent: {}
+[34.934719] (-) TimerEvent: {}
+[35.041954] (-) TimerEvent: {}
+[35.146651] (-) TimerEvent: {}
+[35.249953] (-) TimerEvent: {}
+[35.353931] (-) TimerEvent: {}
+[35.457958] (-) TimerEvent: {}
+[35.566213] (-) TimerEvent: {}
+[35.676486] (-) TimerEvent: {}
+[35.778116] (-) TimerEvent: {}
+[35.889964] (-) TimerEvent: {}
+[35.998430] (-) TimerEvent: {}
+[36.106422] (-) TimerEvent: {}
+[36.207156] (-) TimerEvent: {}
+[36.310657] (-) TimerEvent: {}
+[36.413970] (-) TimerEvent: {}
+[36.514716] (-) TimerEvent: {}
+[36.618822] (-) TimerEvent: {}
+[36.719618] (-) TimerEvent: {}
+[36.827034] (-) TimerEvent: {}
+[36.929804] (-) TimerEvent: {}
+[37.034466] (-) TimerEvent: {}
+[37.147920] (-) TimerEvent: {}
+[37.257477] (-) TimerEvent: {}
+[37.366561] (-) TimerEvent: {}
+[37.471036] (-) TimerEvent: {}
+[37.574298] (-) TimerEvent: {}
+[37.686059] (-) TimerEvent: {}
+[37.786453] (-) TimerEvent: {}
+[37.889149] (-) TimerEvent: {}
+[37.994975] (-) TimerEvent: {}
+[38.103863] (-) TimerEvent: {}
+[38.211276] (-) TimerEvent: {}
+[38.311972] (-) TimerEvent: {}
+[38.413403] (-) TimerEvent: {}
+[38.514264] (-) TimerEvent: {}
+[38.627162] (-) TimerEvent: {}
+[38.727918] (-) TimerEvent: {}
+[38.841479] (-) TimerEvent: {}
+[38.949684] (-) TimerEvent: {}
+[39.054034] (-) TimerEvent: {}
+[39.162085] (-) TimerEvent: {}
+[39.270074] (-) TimerEvent: {}
+[39.328365] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library librf2o_laser_odometry.a\x1b[0m\n'}
+[39.370612] (-) TimerEvent: {}
+[39.471582] (-) TimerEvent: {}
+[39.572020] (-) TimerEvent: {}
+[39.673566] (-) TimerEvent: {}
+[39.752443] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] Built target rf2o_laser_odometry\n'}
+[39.775143] (-) TimerEvent: {}
+[39.875676] (-) TimerEvent: {}
+[39.979953] (-) TimerEvent: {}
+[40.082661] (-) TimerEvent: {}
+[40.183192] (-) TimerEvent: {}
+[40.290350] (-) TimerEvent: {}
+[40.394274] (-) TimerEvent: {}
+[40.495318] (-) TimerEvent: {}
+[40.600508] (-) TimerEvent: {}
+[40.702533] (-) TimerEvent: {}
+[40.803125] (-) TimerEvent: {}
+[40.908546] (-) TimerEvent: {}
+[41.015538] (-) TimerEvent: {}
+[41.116041] (-) TimerEvent: {}
+[41.218393] (-) TimerEvent: {}
+[41.324603] (-) TimerEvent: {}
+[41.414019] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rf2o_laser_odometry_node\x1b[0m\n'}
+[41.425456] (-) TimerEvent: {}
+[41.527104] (-) TimerEvent: {}
+[41.630210] (-) TimerEvent: {}
+[41.742960] (-) TimerEvent: {}
+[41.844328] (-) TimerEvent: {}
+[41.945061] (-) TimerEvent: {}
+[42.052349] (-) TimerEvent: {}
+[42.161240] (-) TimerEvent: {}
+[42.262226] (-) TimerEvent: {}
+[42.377901] (-) TimerEvent: {}
+[42.485173] (-) TimerEvent: {}
+[42.592991] (-) TimerEvent: {}
+[42.700787] (-) TimerEvent: {}
+[42.806001] (-) TimerEvent: {}
+[42.917695] (-) TimerEvent: {}
+[43.022783] (-) TimerEvent: {}
+[43.123692] (-) TimerEvent: {}
+[43.227557] (-) TimerEvent: {}
+[43.281213] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[43.296468] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[43.337033] (-) TimerEvent: {}
+[43.338894] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'install'}
+[43.338986] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yehia/devtest_ws/build/rf2o_laser_odometry'], 'cwd': '/home/yehia/devtest_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'yehia'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yehia'), ('OLDPWD', '/home/yehia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1616'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1767'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yehia/devtest_ws/install:/home/yehia/cloudy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yehia'), ('JOURNAL_STREAM', '8:42090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yehia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yehia-virtual-machine:@/tmp/.ICE-unix/1767,unix/yehia-virtual-machine:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '1007eb1fda0a4dceb5f1ed527dd77a95'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('TILIX_ID', '929fd6c6-7f47-4055-8866-5bed9adb0a77'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F5WR91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yehia/devtest_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf4b6e9d8851d535cc7d4b9c64dc8ee9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages:/home/yehia/cloudy_ws/build/mecanum_control:/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yehia/devtest_ws/install/launch_navigation:/home/yehia/devtest_ws/install/articubot_one:/home/yehia/cloudy_ws/install/sllidar_ros2:/home/yehia/cloudy_ws/install/robolaunch_cloudy_simulator:/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation:/home/yehia/cloudy_ws/install/robolaunch_cloudy_bringup:/home/yehia/cloudy_ws/install/robolaunch_cloudy_hardware:/home/yehia/cloudy_ws/install/robolaunch_cloudy_description:/home/yehia/cloudy_ws/install/rf2o_laser_odometry:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[43.349023] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.349709] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[43.350393] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node\n'}
+[43.361347] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py\n'}
+[43.370951] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry\n'}
+[43.378602] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry\n'}
+[43.386476] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh\n'}
+[43.403549] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv\n'}
+[43.414128] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh\n'}
+[43.424796] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv\n'}
+[43.433740] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash\n'}
+[43.445228] (-) TimerEvent: {}
+[43.450738] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh\n'}
+[43.464394] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh\n'}
+[43.481532] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv\n'}
+[43.496192] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv\n'}
+[43.511831] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry\n'}
+[43.524291] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake\n'}
+[43.537267] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake\n'}
+[43.545174] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/yehia/devtest_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml\n'}
+[43.545826] (-) TimerEvent: {}
+[43.558740] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[43.645651] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 0}
+[43.646587] (-) TimerEvent: {}
+[43.646656] (-) EventReactorShutdown: {}

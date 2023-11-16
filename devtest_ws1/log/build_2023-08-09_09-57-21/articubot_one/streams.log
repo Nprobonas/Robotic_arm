@@ -1,0 +1,43 @@
+[0.038s] Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/articubot_one -- -j4 -l4
+[0.085s] Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/articubot_one -- -j4 -l4
+[0.116s] Invoking command in '/home/yehia/devtest_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/articubot_one
+[0.125s] -- Install configuration: ""
+[0.125s] -- Execute custom install script
+[0.126s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.126s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/cloudy_v2_properties.urdf.xacro
+[0.127s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/deph_camera.xacro
+[0.127s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.128s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.128s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/laser.xacro
+[0.129s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/meshes/body_v2.stl
+[0.129s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/meshes/lidar.stl
+[0.130s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/meshes/realsense.stl
+[0.130s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/meshes/wheel_v2.stl
+[0.131s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/omni_drive.urdf.xacro
+[0.131s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.131s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.132s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/description/test.urdf
+[0.132s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/gazebo.launch.py
+[0.132s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/my_robot_cartographer.launch.py
+[0.134s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.135s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/launch/sensors.launch.py
+[0.137s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.139s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/model.config
+[0.140s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/model.sdf
+[0.140s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/worlds/test.world
+[0.141s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.142s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.143s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.144s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.145s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[0.145s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.145s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[0.145s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[0.145s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.145s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.146s] -- Symlinking: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.dsv
+[0.147s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.147s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.149s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.150s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/articubot_one/share/articubot_one/package.xml
+[0.150s] Invoked command in '/home/yehia/devtest_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/articubot_one

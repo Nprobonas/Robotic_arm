@@ -1,0 +1,1 @@
+/home/madjid/devtest_ws_cbm/build/launch_navigation/ament_cmake_core/launch_navigationConfig-version.cmake

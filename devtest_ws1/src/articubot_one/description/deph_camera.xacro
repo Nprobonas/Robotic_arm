@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<link name="camera_link">
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.135"/>
+        <inertia ixx="${(1/12) * 0.135 * ((0.124  * 0.124)  + (0.030 * 0.030))}" ixy="0.0" ixz="0.0"
+                 iyy="${(1/12) * 0.135 * ((0.030 * 0.030) + (0.030 * 0.030))}" iyz="0.0"
+                 izz="${(1/12) * 0.135 * ((0.030 * 0.030) + (0.124  * 0.124))}"/>
+    </inertial>
+    <visual>
+        <origin xyz="-0.03 -0.1 -0.03" rpy="1.57 0.0 1.57"/>
+        <geometry>
+            <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find articubot_one)/description/meshes/realsense.stl"/>
+        </geometry>
+        <!-- <material name="red"/> -->
+            
+    </visual>
+    <collision>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <box size="0.03 0.124 0.03"/>
+        </geometry>
+    </collision>
+</link>
+
+<joint name="camera_joint" type="fixed">
+    <origin xyz="0.35 0.0 0.13" rpy="0.0 0.0 0.0"/>
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <axis xyz="0.0 0.0 0.0"/>
+</joint>
+<link name="camera_depth_link"/>
+<joint name="camera_depth_joint" type="fixed">
+  <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
+  <parent link="camera_link"/>
+  <child link="camera_depth_link"/>
+</joint>
+<gazebo reference="camera_link">
+    <sensor name="camera" type="depth">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise is sampled independently per pixel on each frame.
+               That pixel's noise value is added to each of its color
+               channels, which at that point lie in the range [0,1]. -->
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+          <min_depth>0.015</min_depth>
+          <max_depth>3.0</max_depth>
+          <hack_baseline>0.07</hack_baseline>
+          <frame_name>camera_depth_link</frame_name>
+        </plugin>
+    </sensor>
+</gazebo>
+</robot>

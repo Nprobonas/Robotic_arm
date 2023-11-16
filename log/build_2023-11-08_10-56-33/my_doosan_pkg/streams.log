@@ -1,0 +1,26 @@
+[6.262s] Invoking command in '/home/madjid/devtest_ws_cbm/devtest_ws1/src/my_doosan_pkg': PYTHONPATH=/home/madjid/devtest_ws_cbm/build/my_doosan_pkg/prefix_override:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_doosan_pkg build --build-base /home/madjid/devtest_ws_cbm/build/my_doosan_pkg/build install --record /home/madjid/devtest_ws_cbm/build/my_doosan_pkg/install.log --install-scripts $base/lib/my_doosan_pkg --single-version-externally-managed
+[6.473s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.473s]   warnings.warn(
+[6.480s] running egg_info
+[6.480s] writing ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/PKG-INFO
+[6.481s] writing dependency_links to ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/dependency_links.txt
+[6.482s] writing entry points to ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/entry_points.txt
+[6.482s] writing requirements to ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/requires.txt
+[6.482s] writing top-level names to ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/top_level.txt
+[6.483s] reading manifest file '../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+[6.560s] writing manifest file '../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+[6.560s] running build
+[6.561s] running build_py
+[6.561s] running install
+[6.588s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.588s]   warnings.warn(
+[6.590s] running install_lib
+[6.592s] running install_data
+[6.595s] running install_egg_info
+[6.598s] removing '/home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.599s] Copying ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info to /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg-0.0.0-py3.10.egg-info
+[6.663s] running install_scripts
+[6.684s] Installing trajectory_points_act_server script to /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/my_doosan_pkg
+[6.684s] Installing trajectory_points_topic script to /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/my_doosan_pkg
+[6.685s] writing list of installed files to '/home/madjid/devtest_ws_cbm/build/my_doosan_pkg/install.log'
+[6.704s] Invoked command in '/home/madjid/devtest_ws_cbm/devtest_ws1/src/my_doosan_pkg' returned '0': PYTHONPATH=/home/madjid/devtest_ws_cbm/build/my_doosan_pkg/prefix_override:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_doosan_pkg build --build-base /home/madjid/devtest_ws_cbm/build/my_doosan_pkg/build install --record /home/madjid/devtest_ws_cbm/build/my_doosan_pkg/install.log --install-scripts $base/lib/my_doosan_pkg --single-version-externally-managed

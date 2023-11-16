@@ -1,0 +1,39 @@
+[0.036s] Invoking command in '/home/yehia/devtest_ws/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/launch_navigation -- -j4 -l4
+[0.084s] Invoked command in '/home/yehia/devtest_ws/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/launch_navigation -- -j4 -l4
+[0.120s] Invoking command in '/home/yehia/devtest_ws/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/launch_navigation
+[0.127s] -- Install configuration: ""
+[0.131s] -- Execute custom install script
+[0.152s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/navigation.launch.py
+[0.153s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_launch_all.launch.py
+[0.154s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_nav.launch.py
+[0.155s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/launch/sim_slam.launch.py
+[0.156s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/map1_save.yaml
+[0.156s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/map1_serialize.data
+[0.156s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/map1_serialize.posegraph
+[0.157s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/new_map.data
+[0.157s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/new_map.pgm
+[0.157s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/new_map.posegraph
+[0.157s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/map/new_map.yaml
+[0.157s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/rviz/nav.rviz
+[0.158s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/rviz/slam.rviz
+[0.158s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/box_filter.yaml
+[0.158s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/mapper_params_offline.yaml
+[0.158s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/range_filter.yaml
+[0.158s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/sim_navigation.yaml
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/config/sim_slam.yaml
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies/launch_navigation
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path/launch_navigation
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.sh
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.dsv
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/path.sh
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/environment/path.dsv
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.bash
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.sh
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.zsh
+[0.159s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/local_setup.dsv
+[0.159s] -- Symlinking: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.dsv
+[0.160s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/ament_index/resource_index/packages/launch_navigation
+[0.160s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig.cmake
+[0.160s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig-version.cmake
+[0.160s] -- Up-to-date symlink: /home/yehia/devtest_ws/install/launch_navigation/share/launch_navigation/package.xml
+[0.161s] Invoked command in '/home/yehia/devtest_ws/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/launch_navigation

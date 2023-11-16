@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages",
+        "/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages",
+        "/home/yehia/ros2_ws/build/my_robot_controller",
+        "/home/yehia/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/yehia/ros2_turtle/build/my_turtle_controller",
+        "/home/yehia/ros2_turtle/install/my_turtle_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yehia/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages",
+        "/home/yehia/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages",
+        "/home/yehia/ros2_ws/build/my_robot_controller",
+        "/home/yehia/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/yehia/ros2_turtle/build/my_turtle_controller",
+        "/home/yehia/ros2_turtle/install/my_turtle_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

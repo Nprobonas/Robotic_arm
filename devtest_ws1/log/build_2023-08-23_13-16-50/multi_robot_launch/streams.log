@@ -1,0 +1,46 @@
+[0.036s] Invoking command in '/home/yehia/devtest_ws/build/multi_robot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/multi_robot_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/multi_robot_launch
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.265s] -- The CXX compiler identification is GNU 11.4.0
+[0.277s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.384s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.482s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.482s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.490s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.692s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.765s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.803s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.950s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.952s] -- Added test 'lint_cmake' to check CMake code style
+[0.954s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.957s] -- Added test 'xmllint' to check XML markup files
+[0.962s] -- Configuring done
+[0.963s] -- Generating done
+[0.966s] -- Build files have been written to: /home/yehia/devtest_ws/build/multi_robot_launch
+[0.977s] Invoked command in '/home/yehia/devtest_ws/build/multi_robot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/yehia/devtest_ws/src/multi_robot_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yehia/devtest_ws/install/multi_robot_launch
+[0.978s] Invoking command in '/home/yehia/devtest_ws/build/multi_robot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/multi_robot_launch -- -j4 -l4
+[1.035s] Invoked command in '/home/yehia/devtest_ws/build/multi_robot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/yehia/devtest_ws/build/multi_robot_launch -- -j4 -l4
+[1.072s] Invoking command in '/home/yehia/devtest_ws/build/multi_robot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/multi_robot_launch
+[1.081s] -- Install configuration: ""
+[1.082s] -- Execute custom install script
+[1.082s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies/multi_robot_launch
+[1.094s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path/multi_robot_launch
+[1.105s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment/ament_prefix_path.sh
+[1.117s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment/ament_prefix_path.dsv
+[1.125s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment/path.sh
+[1.135s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment/path.dsv
+[1.142s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/local_setup.bash
+[1.152s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/local_setup.sh
+[1.161s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/local_setup.zsh
+[1.175s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/local_setup.dsv
+[1.187s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.dsv
+[1.199s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages/multi_robot_launch
+[1.208s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake/multi_robot_launchConfig.cmake
+[1.217s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake/multi_robot_launchConfig-version.cmake
+[1.233s] -- Symlinking: /home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.xml
+[1.257s] Invoked command in '/home/yehia/devtest_ws/build/multi_robot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yehia/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/yehia/devtest_ws/build/multi_robot_launch

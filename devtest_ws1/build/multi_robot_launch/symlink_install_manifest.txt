@@ -1,0 +1,15 @@
+/home/yehia/devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/package_run_dependencies/multi_robot_launch
+/home/yehia/devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/parent_prefix_path/multi_robot_launch
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment/ament_prefix_path.sh
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment/ament_prefix_path.dsv
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment/path.sh
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/environment/path.dsv
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/local_setup.bash
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/local_setup.sh
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/local_setup.zsh
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/local_setup.dsv
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.dsv
+/home/yehia/devtest_ws/install/multi_robot_launch/share/ament_index/resource_index/packages/multi_robot_launch
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake/multi_robot_launchConfig.cmake
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/cmake/multi_robot_launchConfig-version.cmake
+/home/yehia/devtest_ws/install/multi_robot_launch/share/multi_robot_launch/package.xml

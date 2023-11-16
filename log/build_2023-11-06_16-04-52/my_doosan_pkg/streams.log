@@ -1,0 +1,82 @@
+[1.578s] Invoking command in '/home/madjid/devtest_ws_cbm/build/my_doosan_pkg': PYTHONPATH=/home/madjid/devtest_ws_cbm/build/my_doosan_pkg/prefix_override:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/madjid/devtest_ws_cbm/build/my_doosan_pkg/build --no-deps install_data
+[1.787s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.787s]   warnings.warn(
+[1.812s] running develop
+[1.836s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.836s]   warnings.warn(
+[1.851s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.851s]   warnings.warn(
+[2.008s] running egg_info
+[2.008s] creating my_doosan_pkg.egg-info
+[2.010s] writing my_doosan_pkg.egg-info/PKG-INFO
+[2.011s] writing dependency_links to my_doosan_pkg.egg-info/dependency_links.txt
+[2.012s] writing entry points to my_doosan_pkg.egg-info/entry_points.txt
+[2.013s] writing requirements to my_doosan_pkg.egg-info/requires.txt
+[2.014s] writing top-level names to my_doosan_pkg.egg-info/top_level.txt
+[2.015s] writing manifest file 'my_doosan_pkg.egg-info/SOURCES.txt'
+[2.017s] reading manifest file 'my_doosan_pkg.egg-info/SOURCES.txt'
+[2.018s] writing manifest file 'my_doosan_pkg.egg-info/SOURCES.txt'
+[2.021s] running build_ext
+[2.022s] Creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages/my-doosan-pkg.egg-link (link to .)
+[2.023s] Installing trajectory_points_act_server script to /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/my_doosan_pkg
+[2.025s] Installing trajectory_points_topic script to /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/my_doosan_pkg
+[2.025s] 
+[2.025s] Installed /home/madjid/devtest_ws_cbm/build/my_doosan_pkg
+[2.025s] running install_data
+[2.028s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/ament_index
+[2.028s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/ament_index/resource_index
+[2.028s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/ament_index/resource_index/packages
+[2.028s] copying resource/my_doosan_pkg -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/ament_index/resource_index/packages
+[2.028s] copying package.xml -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg
+[2.028s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[2.028s] copying launch/my_doosan_rviz.launch.py -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[2.028s] copying launch/my_doosan_gazebo.launch.py -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[2.029s] copying launch/my_doosan_gazebo_controller.launch.py -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[2.029s] copying launch/my_doosan_controller.launch.py -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[2.029s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/rviz
+[2.029s] copying rviz/view_config.rviz -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/rviz
+[2.029s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/config
+[2.029s] copying config/simple_controller.yaml -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/config
+[2.029s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/worlds
+[2.029s] copying worlds/my_empty_world.world -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/worlds
+[2.029s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description
+[2.029s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+[2.029s] copying description/urdf/a0912.blue.urdf -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+[2.034s] copying description/urdf/m1013.white.urdf -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+[2.034s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.034s] copying description/xacro/a0912.urdf.xacro -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.034s] copying description/xacro/m1013.urdf.xacro -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.034s] copying description/xacro/macro.gazebo_config_control.xacro -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.034s] copying description/xacro/macro.m1013.white.xacro -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.035s] copying description/xacro/macro.transmission.xacro -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.035s] copying description/xacro/macro.a0912.blue.xacro -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.035s] copying description/xacro/macro.internal_config.xacro -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.035s] copying description/xacro/macro.bumper_config.xacro -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[2.035s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes
+[2.035s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.035s] copying description/meshes/a0912_blue/A0912_4_1.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.035s] copying description/meshes/a0912_blue/A0912_3_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.036s] copying description/meshes/a0912_blue/A0912_0_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.036s] copying description/meshes/a0912_blue/A0912_5_1.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.036s] copying description/meshes/a0912_blue/A0912_3_1.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.037s] copying description/meshes/a0912_blue/A0912_1_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.037s] copying description/meshes/a0912_blue/A0912_1_2.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.037s] copying description/meshes/a0912_blue/A0912_2_2.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.037s] copying description/meshes/a0912_blue/A0912_2_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.037s] copying description/meshes/a0912_blue/A0912_2_1.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.048s] copying description/meshes/a0912_blue/A0912_4_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.048s] copying description/meshes/a0912_blue/A0912_6_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.048s] copying description/meshes/a0912_blue/A0912_5_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.048s] copying description/meshes/a0912_blue/A0912_1_1.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[2.048s] creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_1_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_3_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_2_1.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_5_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_2_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_2_2.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_4_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_0_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_4_1.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.048s] copying description/meshes/m1013_white/MF1013_6_0.dae -> /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[2.070s] Invoked command in '/home/madjid/devtest_ws_cbm/build/my_doosan_pkg' returned '0': PYTHONPATH=/home/madjid/devtest_ws_cbm/build/my_doosan_pkg/prefix_override:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/madjid/devtest_ws_cbm/build/my_doosan_pkg/build --no-deps install_data

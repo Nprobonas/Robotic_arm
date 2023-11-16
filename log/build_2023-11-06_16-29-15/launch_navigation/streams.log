@@ -1,0 +1,39 @@
+[0.841s] Invoking command in '/home/madjid/devtest_ws_cbm/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/launch_navigation -- -j4 -l4
+[1.971s] Invoked command in '/home/madjid/devtest_ws_cbm/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/launch_navigation -- -j4 -l4
+[2.155s] Invoking command in '/home/madjid/devtest_ws_cbm/build/launch_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/launch_navigation
+[2.190s] -- Install configuration: ""
+[2.192s] -- Execute custom install script
+[2.194s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/launch/navigation.launch.py
+[2.195s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/launch/sim_launch_all.launch.py
+[2.195s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/launch/sim_nav.launch.py
+[2.197s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/launch/sim_slam.launch.py
+[2.200s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/map/map1_save.yaml
+[2.201s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/map/map1_serialize.data
+[2.201s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/map/map1_serialize.posegraph
+[2.202s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/map/new_map.data
+[2.203s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/map/new_map.pgm
+[2.203s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/map/new_map.posegraph
+[2.204s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/map/new_map.yaml
+[2.205s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/rviz/nav.rviz
+[2.206s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/rviz/slam.rviz
+[2.213s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/config/box_filter.yaml
+[2.214s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/config/mapper_params_offline.yaml
+[2.215s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/config/range_filter.yaml
+[2.216s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/config/sim_navigation.yaml
+[2.216s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/config/sim_slam.yaml
+[2.222s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/ament_index/resource_index/package_run_dependencies/launch_navigation
+[2.225s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/ament_index/resource_index/parent_prefix_path/launch_navigation
+[2.226s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.sh
+[2.227s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/environment/ament_prefix_path.dsv
+[2.229s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/environment/path.sh
+[2.230s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/environment/path.dsv
+[2.241s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/local_setup.bash
+[2.241s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/local_setup.sh
+[2.241s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/local_setup.zsh
+[2.244s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/local_setup.dsv
+[2.246s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.dsv
+[2.298s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/ament_index/resource_index/packages/launch_navigation
+[2.298s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig.cmake
+[2.299s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/cmake/launch_navigationConfig-version.cmake
+[2.300s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/launch_navigation/share/launch_navigation/package.xml
+[2.316s] Invoked command in '/home/madjid/devtest_ws_cbm/build/launch_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/launch_navigation

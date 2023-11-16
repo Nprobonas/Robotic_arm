@@ -1,0 +1,24 @@
+[3.305s] Invoking command in '/home/madjid/devtest_ws_cbm/build/my_doosan_pkg': PYTHONPATH=/home/madjid/devtest_ws_cbm/build/my_doosan_pkg/prefix_override:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/madjid/devtest_ws_cbm/build/my_doosan_pkg/build --no-deps install_data
+[4.170s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.170s]   warnings.warn(
+[4.252s] running develop
+[4.253s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.253s]   warnings.warn(
+[4.256s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.257s]   warnings.warn(
+[4.870s] running egg_info
+[4.871s] writing my_doosan_pkg.egg-info/PKG-INFO
+[4.872s] writing dependency_links to my_doosan_pkg.egg-info/dependency_links.txt
+[4.872s] writing entry points to my_doosan_pkg.egg-info/entry_points.txt
+[4.872s] writing requirements to my_doosan_pkg.egg-info/requires.txt
+[4.872s] writing top-level names to my_doosan_pkg.egg-info/top_level.txt
+[4.877s] reading manifest file 'my_doosan_pkg.egg-info/SOURCES.txt'
+[4.882s] writing manifest file 'my_doosan_pkg.egg-info/SOURCES.txt'
+[4.887s] running build_ext
+[4.889s] Creating /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages/my-doosan-pkg.egg-link (link to .)
+[4.892s] Installing trajectory_points_act_server script to /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/my_doosan_pkg
+[4.893s] Installing trajectory_points_topic script to /home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/my_doosan_pkg
+[4.894s] 
+[4.894s] Installed /home/madjid/devtest_ws_cbm/build/my_doosan_pkg
+[4.895s] running install_data
+[4.970s] Invoked command in '/home/madjid/devtest_ws_cbm/build/my_doosan_pkg' returned '0': PYTHONPATH=/home/madjid/devtest_ws_cbm/build/my_doosan_pkg/prefix_override:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/madjid/devtest_ws_cbm/build/my_doosan_pkg/build --no-deps install_data

@@ -1,0 +1,49 @@
+[1.873s] Invoking command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake /home/madjid/devtest_ws_cbm/devtest_ws1/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry
+[1.940s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.505s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.570s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.279s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.301s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.379s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.982s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.023s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[4.390s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.414s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.670s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.811s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.832s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.764s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.101s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.818s] -- Configuring done
+[8.912s] -- Generating done
+[8.923s] -- Build files have been written to: /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry
+[8.943s] Invoked command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake /home/madjid/devtest_ws_cbm/devtest_ws1/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry
+[8.948s] Invoking command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry -- -j4 -l4
+[9.114s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry[0m
+[9.130s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node[0m
+[9.222s] [ 40%] Built target rf2o_laser_odometry
+[9.234s] [100%] Built target rf2o_laser_odometry_node
+[9.278s] Invoked command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry -- -j4 -l4
+[9.376s] Invoking command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry
+[9.419s] -- Install configuration: ""
+[9.427s] -- Execute custom install script
+[9.427s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[9.427s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[9.427s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[9.427s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[9.427s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[9.427s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[9.427s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[9.428s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[9.429s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[9.430s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[9.430s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[9.431s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[9.431s] -- Symlinking: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[9.459s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[9.465s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[9.465s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[9.466s] -- Up-to-date symlink: /home/madjid/devtest_ws_cbm/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[9.476s] Invoked command in '/home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madjid/devtest_ws_cbm/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/madjid/devtest_ws_cbm/build/rf2o_laser_odometry
